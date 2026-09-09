@@ -1,0 +1,561 @@
+patient_id,drug,disease_group,age,gender,treatment_days,recovered,side_effect_reported,efficacy_score,recovered_flag,side_effect_flag
+P1000,Drug D,Arthritis,31,Male,22,Yes,Y,6.5,1,1
+P1001,Drug E,Hypertension,63,Male,17,No,N,6.7,0,0
+P1002,Drug D,Arthritis,48,Male,22,Yes,Y,5.6,1,1
+P1003,Drug D,Asthma,36,Female,23,No,Y,4.7,0,1
+P1004,Drug D,Arthritis,49,Male,16,Yes,Y,6.9,1,1
+P1005,Drug D,Arthritis,36,Female,23,Yes,Y,5.8,1,1
+P1006,Drug B,Type-2 Diabetes,27,Female,19,Yes,Y,6.5,1,1
+P1007,Drug D,Arthritis,66,Male,19,No,N,6.0,0,0
+P1008,Drug B,Hypertension,83,Male,15,No,N,8.2,0,0
+P1009,Drug A,Asthma,32,Male,26,No,N,8.8,0,0
+P1010,Drug A,Hypertension,58,Female,19,Yes,N,8.3,1,0
+P1011,Drug E,Hypertension,65,Male,27,No,N,7.3,0,0
+P1012,Drug C,Type-2 Diabetes,53,Female,5,Yes,N,10.0,1,0
+P1013,Drug E,Arthritis,60,Female,14,Yes,N,10.0,1,0
+P1014,Drug E,Type-2 Diabetes,39,Female,19,No,N,5.6,0,0
+P1015,Drug B,Arthritis,41,Female,15,Yes,N,6.8,1,0
+P1016,Drug D,Hypertension,49,Male,16,No,N,7.3,0,0
+P1017,Drug A,Hypertension,43,Female,19,No,N,8.1,0,0
+P1018,Drug E,Arthritis,31,Male,22,Yes,Y,8.5,1,1
+P1019,Drug A,Hypertension,26,Male,27,Yes,N,9.4,1,0
+P1020,Drug A,Type-2 Diabetes,41,Female,23,Yes,N,8.0,1,0
+P1021,Drug D,Hypertension,77,Female,17,Yes,N,7.0,1,0
+P1022,Drug B,Hypertension,56,Male,15,Yes,N,9.5,1,0
+P1023,Drug D,Arthritis,39,Female,24,Yes,Y,7.2,1,1
+P1024,Drug D,Type-2 Diabetes,45,Male,28,Yes,N,6.8,1,0
+P1025,Drug B,Arthritis,61,Male,28,Yes,N,7.2,1,0
+P1026,Drug B,Arthritis,63,Female,25,Yes,N,7.1,1,0
+P1027,Drug A,Hypertension,55,Female,16,Yes,Y,8.5,1,1
+P1028,Drug B,Arthritis,18,Female,20,No,Y,5.9,0,1
+P1029,Drug C,Asthma,42,Female,16,Yes,N,8.3,1,0
+P1030,Drug E,Hypertension,61,Male,29,Yes,N,7.4,1,0
+P1031,Drug D,Hypertension,65,Female,20,No,Y,6.2,0,1
+P1032,Drug D,Type-2 Diabetes,21,Male,20,No,N,5.8,0,0
+P1033,Drug C,Hypertension,53,Female,17,No,Y,7.5,0,1
+P1034,Drug C,Arthritis,51,Male,15,No,N,7.1,0,0
+P1035,Drug B,Hypertension,50,Male,18,Yes,N,8.0,1,0
+P1036,Drug E,Arthritis,37,Female,13,Yes,N,5.4,1,0
+P1037,Drug D,Asthma,55,Female,33,No,Y,4.2,0,1
+P1038,Drug C,Arthritis,82,Male,18,Yes,N,6.4,1,0
+P1039,Drug A,Type-2 Diabetes,64,Male,24,No,N,8.0,0,0
+P1040,Drug D,Asthma,72,Female,20,Yes,Y,6.15,1,1
+P1041,Drug B,Type-2 Diabetes,40,Female,30,Yes,Y,6.0,1,1
+P1042,Drug A,Hypertension,24,Male,22,Yes,N,7.7,1,0
+P1043,Drug E,Hypertension,56,Female,13,Yes,N,6.5,1,0
+P1044,Drug A,Type-2 Diabetes,37,Female,17,Yes,N,7.8,1,0
+P1045,Drug E,Asthma,64,Female,21,Yes,N,6.9,1,0
+P1046,Drug B,Type-2 Diabetes,48,Male,24,Yes,N,7.8,1,0
+P1047,Drug D,Arthritis,50,Male,28,No,N,3.8,0,0
+P1048,Drug A,Hypertension,55,Male,14,Yes,N,8.7,1,0
+P1049,Drug D,Hypertension,56,Female,17,Yes,Y,6.4,1,1
+P1050,Drug E,Arthritis,39,Male,26,Yes,N,8.4,1,0
+P1051,Drug E,Asthma,52,Male,9,No,N,9.4,0,0
+P1052,Drug C,Hypertension,21,Male,30,Yes,N,7.1,1,0
+P1053,Drug A,Hypertension,41,Male,20,Yes,N,5.2,1,0
+P1054,Drug C,Asthma,52,Female,16,No,N,8.4,0,0
+P1055,Drug A,Asthma,79,Female,23,Yes,N,10.0,1,0
+P1056,Drug A,Type-2 Diabetes,57,Male,18,Yes,Y,9.7,1,1
+P1057,Drug B,Hypertension,51,Male,12,Yes,N,7.4,1,0
+P1058,Drug D,Arthritis,52,Female,20,No,N,5.9,0,0
+P1059,Drug C,Type-2 Diabetes,75,Female,18,Yes,N,6.7,1,0
+P1060,Drug B,Hypertension,60,Male,14,No,N,7.8,0,0
+P1061,Drug D,Hypertension,59,Female,21,Yes,N,6.4,1,0
+P1062,Drug C,Asthma,40,Male,15,Yes,N,8.9,1,0
+P1063,Drug C,Arthritis,70,Male,26,Yes,N,8.5,1,0
+P1064,Drug B,Arthritis,45,Male,9,Yes,N,5.3,1,0
+P1065,Drug D,Hypertension,53,Female,10,Yes,Y,8.1,1,1
+P1066,Drug B,Type-2 Diabetes,65,Male,10,No,Y,6.3,0,1
+P1067,Drug C,Hypertension,68,Female,32,Yes,Y,9.0,1,1
+P1068,Drug C,Type-2 Diabetes,70,Male,19,No,N,9.0,0,0
+P1069,Drug C,Type-2 Diabetes,24,Female,23,Yes,N,9.0,1,0
+P1070,Drug B,Asthma,18,Male,17,No,N,6.6,0,0
+P1071,Drug E,Arthritis,86,Female,18,Yes,N,6.9,1,0
+P1072,Drug B,Arthritis,22,Male,22,Yes,N,8.6,1,0
+P1073,Drug D,Type-2 Diabetes,18,Female,24,Yes,N,7.3,1,0
+P1074,Drug A,Asthma,22,Male,8,Yes,N,8.0,1,0
+P1075,Drug C,Arthritis,46,Female,15,Yes,N,9.0,1,0
+P1076,Drug A,Hypertension,47,Female,17,Yes,N,9.2,1,0
+P1077,Drug E,Hypertension,36,Female,19,Yes,N,8.3,1,0
+P1078,Drug B,Hypertension,46,Male,26,No,N,7.0,0,0
+P1079,Drug E,Arthritis,38,Male,21,No,N,7.4,0,0
+P1080,Drug B,Type-2 Diabetes,60,Female,15,No,N,5.7,0,0
+P1081,Drug C,Asthma,49,Male,24,Yes,N,7.7,1,0
+P1082,Drug A,Asthma,38,Male,31,Yes,N,6.8,1,0
+P1083,Drug E,Arthritis,61,Male,30,Yes,N,7.9,1,0
+P1084,Drug D,Hypertension,42,Female,9,Yes,N,5.3,1,0
+P1085,Drug E,Arthritis,62,Female,13,No,Y,6.7,0,1
+P1086,Drug C,Type-2 Diabetes,50,Male,20,No,Y,8.6,0,1
+P1087,Drug A,Hypertension,54,Female,20,Yes,N,9.6,1,0
+P1088,Drug B,Arthritis,36,Female,22,Yes,N,4.7,1,0
+P1089,Drug E,Type-2 Diabetes,34,Female,10,Yes,N,8.5,1,0
+P1090,Drug B,Asthma,77,Female,35,Yes,N,9.3,1,0
+P1091,Drug A,Asthma,38,Male,20,No,N,8.9,0,0
+P1092,Drug B,Type-2 Diabetes,55,Male,17,No,Y,8.8,0,1
+P1093,Drug E,Hypertension,56,Male,22,Yes,N,8.3,1,0
+P1094,Drug B,Asthma,66,Male,9,Yes,N,6.4,1,0
+P1095,Drug A,Arthritis,42,Female,7,Yes,N,9.1,1,0
+P1096,Drug C,Asthma,18,Male,15,Yes,N,10.0,1,0
+P1097,Drug A,Hypertension,55,Male,23,Yes,N,7.5,1,0
+P1098,Drug E,Type-2 Diabetes,40,Female,30,Yes,N,7.9,1,0
+P1099,Drug E,Hypertension,47,Female,15,Yes,N,7.1,1,0
+P1100,Drug E,Type-2 Diabetes,18,Male,28,No,Y,6.9,0,1
+P1101,Drug C,Arthritis,77,Male,26,Yes,N,8.8,1,0
+P1102,Drug B,Arthritis,50,Male,31,Yes,Y,10.0,1,1
+P1103,Drug B,Arthritis,56,Female,18,No,N,6.1,0,0
+P1104,Drug A,Type-2 Diabetes,29,Female,29,Yes,N,6.8,1,0
+P1105,Drug A,Asthma,37,Female,7,Yes,N,9.1,1,0
+P1106,Drug B,Arthritis,24,Female,23,No,N,6.9,0,0
+P1107,Drug E,Arthritis,25,Female,27,No,N,9.6,0,0
+P1108,Drug E,Arthritis,54,Male,21,Yes,N,7.4,1,0
+P1109,Drug A,Type-2 Diabetes,64,Female,19,Yes,N,9.7,1,0
+P1110,Drug E,Type-2 Diabetes,26,Female,27,No,N,9.2,0,0
+P1111,Drug D,Arthritis,32,Male,22,Yes,N,5.7,1,0
+P1112,Drug C,Hypertension,26,Male,26,Yes,N,7.7,1,0
+P1113,Drug C,Hypertension,67,Female,23,Yes,N,8.0,1,0
+P1114,Drug B,Asthma,66,Female,19,No,N,7.4,0,0
+P1115,Drug B,Arthritis,32,Female,13,Yes,Y,7.3,1,1
+P1116,Drug B,Arthritis,51,Male,19,Yes,N,7.8,1,0
+P1117,Drug E,Arthritis,46,Female,17,Yes,N,5.3,1,0
+P1118,Drug D,Asthma,62,Male,33,No,N,6.1,0,0
+P1119,Drug C,Hypertension,58,Male,24,Yes,N,9.0,1,0
+P1120,Drug B,Arthritis,68,Male,20,Yes,Y,7.1,1,1
+P1121,Drug E,Hypertension,18,Male,30,Yes,Y,9.3,1,1
+P1122,Drug B,Arthritis,45,Male,18,Yes,N,7.9,1,0
+P1123,Drug B,Asthma,50,Male,20,Yes,N,7.9,1,0
+P1124,Drug C,Asthma,46,Female,10,No,N,9.3,0,0
+P1125,Drug C,Type-2 Diabetes,46,Male,20,Yes,Y,10.0,1,1
+P1126,Drug B,Hypertension,18,Male,25,Yes,N,6.5,1,0
+P1127,Drug C,Type-2 Diabetes,72,Female,26,Yes,N,7.3,1,0
+P1128,Drug C,Arthritis,62,Female,22,No,N,7.9,0,0
+P1129,Drug C,Type-2 Diabetes,77,Female,27,Yes,N,10.0,1,0
+P1130,Drug A,Arthritis,52,Male,19,Yes,Y,9.0,1,1
+P1131,Drug A,Arthritis,49,Female,27,Yes,N,6.8,1,0
+P1132,Drug B,Asthma,68,Male,29,No,Y,6.9,0,1
+P1133,Drug C,Type-2 Diabetes,18,Male,27,Yes,N,8.7,1,0
+P1134,Drug D,Hypertension,68,Female,21,Yes,N,6.5,1,0
+P1135,Drug D,Arthritis,73,Female,27,Yes,Y,6.2,1,1
+P1136,Drug C,Asthma,47,Male,16,Yes,N,7.9,1,0
+P1137,Drug D,Type-2 Diabetes,44,Female,16,No,Y,5.7,0,1
+P1138,Drug D,Asthma,58,Female,15,Yes,N,8.0,1,0
+P1139,Drug E,Type-2 Diabetes,43,Female,19,No,Y,7.4,0,1
+P1140,Drug C,Type-2 Diabetes,46,Female,24,Yes,N,8.7,1,0
+P1141,Drug C,Type-2 Diabetes,40,Male,17,Yes,N,9.3,1,0
+P1142,Drug E,Asthma,29,Female,10,Yes,N,8.1,1,0
+P1143,Drug B,Arthritis,50,Male,24,No,Y,6.2,0,1
+P1144,Drug A,Hypertension,71,Male,17,Yes,N,10.0,1,0
+P1145,Drug A,Asthma,42,Male,19,No,Y,8.7,0,1
+P1146,Drug B,Arthritis,21,Female,15,Yes,N,5.4,1,0
+P1147,Drug E,Asthma,47,Female,21,No,N,8.5,0,0
+P1148,Drug B,Asthma,64,Male,18,No,N,7.1,0,0
+P1149,Drug A,Hypertension,56,Male,24,Yes,N,7.0,1,0
+P1150,Drug E,Type-2 Diabetes,45,Male,23,Yes,N,7.6,1,0
+P1151,Drug E,Hypertension,42,Male,17,Yes,N,7.1,1,0
+P1152,Drug B,Arthritis,57,Female,22,No,Y,9.5,0,1
+P1153,Drug D,Asthma,71,Female,22,No,N,5.6,0,0
+P1154,Drug A,Arthritis,59,Male,33,Yes,Y,9.3,1,1
+P1155,Drug D,Asthma,36,Male,8,Yes,Y,5.9,1,1
+P1156,Drug B,Asthma,58,Female,28,Yes,N,6.9,1,0
+P1157,Drug B,Hypertension,49,Male,22,No,N,7.4,0,0
+P1158,Drug D,Hypertension,25,Male,19,No,N,6.15,0,0
+P1159,Drug A,Arthritis,53,Female,27,Yes,N,8.0,1,0
+P1160,Drug A,Arthritis,53,Female,24,Yes,N,8.6,1,0
+P1161,Drug E,Type-2 Diabetes,67,Female,12,No,N,7.2,0,0
+P1162,Drug A,Hypertension,26,Male,23,Yes,N,8.8,1,0
+P1163,Drug B,Type-2 Diabetes,33,Female,20,No,N,6.6,0,0
+P1164,Drug B,Arthritis,85,Male,23,Yes,N,6.3,1,0
+P1165,Drug C,Arthritis,55,Male,20,Yes,N,10.0,1,0
+P1166,Drug B,Asthma,48,Female,18,No,Y,6.0,0,1
+P1167,Drug B,Hypertension,64,Female,18,No,N,6.3,0,0
+P1168,Drug C,Asthma,73,Male,28,Yes,N,8.6,1,0
+P1169,Drug C,Asthma,56,Male,28,No,N,8.4,0,0
+P1170,Drug A,Asthma,44,Female,19,Yes,N,6.6,1,0
+P1171,Drug C,Asthma,80,Female,17,No,N,9.2,0,0
+P1172,Drug C,Hypertension,28,Male,19,Yes,N,10.0,1,0
+P1173,Drug A,Arthritis,36,Female,24,No,N,8.2,0,0
+P1174,Drug E,Arthritis,29,Female,22,No,Y,5.6,0,1
+P1175,Drug E,Asthma,63,Female,23,Yes,N,9.0,1,0
+P1176,Drug C,Asthma,60,Female,29,Yes,N,8.8,1,0
+P1177,Drug D,Hypertension,59,Male,19,No,Y,6.5,0,1
+P1178,Drug D,Hypertension,72,Male,22,Yes,N,4.1,1,0
+P1179,Drug D,Arthritis,37,Female,16,Yes,N,7.4,1,0
+P1180,Drug E,Arthritis,36,Female,17,No,N,6.5,0,0
+P1181,Drug A,Arthritis,18,Female,26,Yes,N,9.9,1,0
+P1182,Drug D,Arthritis,69,Female,25,Yes,N,4.2,1,0
+P1183,Drug D,Hypertension,62,Male,24,Yes,Y,4.6,1,1
+P1184,Drug C,Asthma,49,Female,26,Yes,N,6.2,1,0
+P1185,Drug C,Type-2 Diabetes,53,Female,14,Yes,N,9.9,1,0
+P1186,Drug B,Type-2 Diabetes,56,Male,20,Yes,N,5.9,1,0
+P1187,Drug B,Asthma,47,Male,28,No,N,8.2,0,0
+P1188,Drug E,Hypertension,60,Male,11,Yes,Y,9.6,1,1
+P1189,Drug A,Arthritis,61,Female,23,No,N,10.0,0,0
+P1190,Drug E,Type-2 Diabetes,61,Female,19,No,N,7.2,0,0
+P1191,Drug A,Asthma,62,Female,33,Yes,N,9.5,1,0
+P1192,Drug E,Type-2 Diabetes,24,Female,22,Yes,N,7.0,1,0
+P1193,Drug B,Type-2 Diabetes,37,Female,21,No,N,7.6,0,0
+P1194,Drug D,Type-2 Diabetes,27,Female,29,No,N,4.1,0,0
+P1195,Drug B,Arthritis,56,Male,28,No,N,6.6,0,0
+P1196,Drug E,Type-2 Diabetes,44,Female,19,No,Y,7.9,0,1
+P1197,Drug E,Arthritis,56,Male,22,Yes,N,8.0,1,0
+P1198,Drug B,Asthma,70,Female,20,Yes,N,7.8,1,0
+P1199,Drug B,Hypertension,45,Female,17,No,Y,8.0,0,1
+P1200,Drug D,Hypertension,35,Male,14,No,N,5.9,0,0
+P1201,Drug E,Type-2 Diabetes,49,Male,13,No,N,8.0,0,0
+P1202,Drug E,Arthritis,50,Female,27,Yes,N,7.7,1,0
+P1203,Drug B,Hypertension,34,Male,14,No,N,6.6,0,0
+P1204,Drug A,Arthritis,57,Male,21,Yes,Y,8.6,1,1
+P1205,Drug C,Type-2 Diabetes,45,Female,36,Yes,N,8.5,1,0
+P1206,Drug C,Arthritis,73,Female,27,Yes,N,9.7,1,0
+P1207,Drug B,Arthritis,40,Male,13,No,N,7.9,0,0
+P1208,Drug A,Hypertension,31,Female,16,Yes,Y,7.2,1,1
+P1209,Drug C,Arthritis,48,Male,26,Yes,N,10.0,1,0
+P1210,Drug B,Type-2 Diabetes,66,Female,31,No,N,5.4,0,0
+P1211,Drug D,Asthma,54,Female,25,Yes,N,7.7,1,0
+P1212,Drug B,Arthritis,46,Female,27,No,N,5.8,0,0
+P1213,Drug E,Type-2 Diabetes,57,Male,25,Yes,N,6.5,1,0
+P1214,Drug D,Type-2 Diabetes,36,Male,24,No,Y,6.4,0,1
+P1215,Drug D,Asthma,56,Male,19,Yes,Y,5.3,1,1
+P1216,Drug A,Arthritis,67,Male,23,Yes,N,8.1,1,0
+P1217,Drug D,Asthma,69,Female,20,Yes,N,6.2,1,0
+P1218,Drug B,Type-2 Diabetes,52,Male,19,No,N,7.3,0,0
+P1219,Drug B,Type-2 Diabetes,36,Male,21,Yes,N,7.8,1,0
+P1220,Drug E,Hypertension,84,Male,5,No,N,7.0,0,0
+P1221,Drug E,Hypertension,48,Female,21,Yes,N,5.5,1,0
+P1222,Drug D,Type-2 Diabetes,46,Female,15,Yes,N,6.7,1,0
+P1223,Drug E,Hypertension,45,Male,11,Yes,N,5.8,1,0
+P1224,Drug B,Hypertension,37,Female,17,No,Y,6.8,0,1
+P1225,Drug C,Arthritis,41,Male,29,Yes,N,10.0,1,0
+P1226,Drug E,Arthritis,24,Male,14,Yes,N,8.5,1,0
+P1227,Drug E,Hypertension,44,Female,20,Yes,N,5.8,1,0
+P1228,Drug E,Type-2 Diabetes,47,Female,26,Yes,Y,7.2,1,1
+P1229,Drug E,Arthritis,36,Male,20,Yes,Y,6.2,1,1
+P1230,Drug E,Arthritis,30,Male,7,Yes,N,7.4,1,0
+P1231,Drug B,Arthritis,41,Female,14,No,N,8.3,0,0
+P1232,Drug E,Arthritis,52,Male,20,Yes,N,7.2,1,0
+P1233,Drug A,Arthritis,67,Female,21,Yes,Y,6.7,1,1
+P1234,Drug A,Asthma,38,Female,27,Yes,N,8.0,1,0
+P1235,Drug A,Asthma,56,Female,15,No,N,6.5,0,0
+P1236,Drug C,Arthritis,32,Female,28,Yes,N,9.2,1,0
+P1237,Drug D,Hypertension,58,Male,15,No,N,5.1,0,0
+P1238,Drug A,Asthma,39,Female,29,No,N,8.1,0,0
+P1239,Drug D,Hypertension,74,Male,15,Yes,Y,6.4,1,1
+P1240,Drug C,Asthma,18,Female,22,Yes,N,8.6,1,0
+P1241,Drug A,Hypertension,55,Female,22,Yes,N,8.2,1,0
+P1242,Drug A,Asthma,79,Female,23,Yes,N,8.9,1,0
+P1243,Drug C,Hypertension,71,Female,10,Yes,N,9.0,1,0
+P1244,Drug B,Hypertension,53,Female,28,No,Y,6.1,0,1
+P1245,Drug C,Asthma,48,Male,22,Yes,N,7.6,1,0
+P1246,Drug D,Type-2 Diabetes,67,Female,19,Yes,N,6.9,1,0
+P1247,Drug C,Type-2 Diabetes,35,Male,28,Yes,N,9.1,1,0
+P1248,Drug E,Arthritis,72,Male,25,No,N,10.0,0,0
+P1249,Drug C,Asthma,59,Male,21,No,N,7.3,0,0
+P1250,Drug D,Hypertension,56,Female,31,No,N,6.5,0,0
+P1251,Drug D,Hypertension,36,Female,19,Yes,N,7.3,1,0
+P1252,Drug C,Type-2 Diabetes,49,Male,30,Yes,N,7.8,1,0
+P1253,Drug D,Type-2 Diabetes,62,Male,17,No,N,7.4,0,0
+P1254,Drug D,Arthritis,18,Male,15,Yes,N,7.1,1,0
+P1255,Drug C,Hypertension,45,Male,27,Yes,N,7.5,1,0
+P1256,Drug D,Type-2 Diabetes,28,Female,26,No,N,6.1,0,0
+P1257,Drug E,Hypertension,61,Male,10,Yes,N,7.6,1,0
+P1258,Drug E,Arthritis,39,Female,25,Yes,N,5.8,1,0
+P1259,Drug B,Hypertension,46,Female,20,Yes,N,3.5,1,0
+P1260,Drug A,Type-2 Diabetes,53,Female,23,Yes,N,8.2,1,0
+P1261,Drug D,Type-2 Diabetes,49,Female,15,Yes,Y,5.0,1,1
+P1262,Drug B,Arthritis,61,Male,20,Yes,N,5.9,1,0
+P1263,Drug D,Asthma,36,Male,14,No,N,4.5,0,0
+P1264,Drug B,Arthritis,53,Female,27,Yes,N,8.9,1,0
+P1265,Drug A,Hypertension,42,Female,16,Yes,N,8.6,1,0
+P1266,Drug A,Asthma,54,Female,16,Yes,N,8.1,1,0
+P1267,Drug A,Hypertension,35,Male,25,Yes,Y,8.6,1,1
+P1268,Drug A,Type-2 Diabetes,35,Female,23,Yes,N,8.2,1,0
+P1269,Drug C,Arthritis,61,Male,16,Yes,N,8.6,1,0
+P1270,Drug B,Asthma,18,Female,25,No,N,6.9,0,0
+P1271,Drug E,Hypertension,60,Male,23,Yes,Y,9.3,1,1
+P1272,Drug B,Arthritis,47,Male,15,No,N,6.0,0,0
+P1273,Drug A,Arthritis,47,Female,19,Yes,Y,6.5,1,1
+P1274,Drug D,Arthritis,53,Female,25,No,N,7.7,0,0
+P1275,Drug B,Hypertension,45,Male,14,Yes,N,7.4,1,0
+P1276,Drug C,Arthritis,42,Female,15,Yes,N,8.1,1,0
+P1277,Drug C,Asthma,54,Male,21,No,N,9.2,0,0
+P1278,Drug E,Asthma,65,Male,13,Yes,N,9.1,1,0
+P1279,Drug A,Type-2 Diabetes,44,Male,24,Yes,Y,7.5,1,1
+P1280,Drug C,Asthma,53,Female,14,Yes,N,8.2,1,0
+P1281,Drug D,Arthritis,65,Female,20,Yes,N,7.7,1,0
+P1282,Drug B,Asthma,41,Male,26,Yes,N,6.5,1,0
+P1283,Drug B,Hypertension,45,Female,28,No,N,5.1,0,0
+P1284,Drug C,Arthritis,40,Female,19,Yes,N,9.4,1,0
+P1285,Drug A,Asthma,37,Female,18,Yes,N,9.1,1,0
+P1286,Drug E,Type-2 Diabetes,55,Male,24,No,N,7.6,0,0
+P1287,Drug A,Type-2 Diabetes,64,Female,14,No,Y,7.6,0,1
+P1288,Drug D,Arthritis,33,Female,18,Yes,N,5.7,1,0
+P1289,Drug B,Arthritis,47,Female,26,No,Y,7.5,0,1
+P1290,Drug E,Hypertension,61,Female,23,Yes,N,6.8,1,0
+P1291,Drug A,Asthma,38,Male,19,Yes,Y,5.8,1,1
+P1292,Drug C,Arthritis,59,Male,13,Yes,Y,7.5,1,1
+P1293,Drug E,Type-2 Diabetes,28,Female,18,No,N,5.4,0,0
+P1294,Drug E,Hypertension,36,Female,22,No,N,7.4,0,0
+P1295,Drug A,Asthma,57,Female,20,Yes,N,6.8,1,0
+P1296,Drug D,Asthma,79,Female,14,No,N,4.8,0,0
+P1297,Drug D,Hypertension,59,Male,10,Yes,N,5.9,1,0
+P1298,Drug A,Asthma,60,Female,12,Yes,N,8.3,1,0
+P1299,Drug C,Hypertension,18,Female,35,Yes,N,8.6,1,0
+P1300,Drug A,Type-2 Diabetes,43,Male,9,No,N,7.2,0,0
+P1301,Drug A,Asthma,49,Male,28,No,N,8.3,0,0
+P1302,Drug A,Arthritis,47,Female,29,No,N,7.4,0,0
+P1303,Drug E,Asthma,37,Female,17,No,N,8.5,0,0
+P1304,Drug B,Arthritis,58,Female,18,Yes,N,6.9,1,0
+P1305,Drug A,Arthritis,56,Male,15,Yes,N,7.8,1,0
+P1306,Drug A,Asthma,22,Male,28,Yes,N,7.0,1,0
+P1307,Drug E,Arthritis,67,Male,25,Yes,N,7.6,1,0
+P1308,Drug D,Asthma,67,Male,22,Yes,N,7.0,1,0
+P1309,Drug E,Hypertension,76,Male,24,Yes,N,6.7,1,0
+P1310,Drug A,Type-2 Diabetes,45,Female,21,No,N,7.3,0,0
+P1311,Drug D,Hypertension,35,Male,12,Yes,N,8.7,1,0
+P1312,Drug C,Arthritis,20,Female,15,Yes,N,10.0,1,0
+P1313,Drug E,Type-2 Diabetes,70,Female,8,Yes,Y,7.7,1,1
+P1314,Drug C,Type-2 Diabetes,39,Female,26,Yes,N,8.3,1,0
+P1315,Drug D,Hypertension,72,Female,23,No,N,6.1,0,0
+P1316,Drug B,Hypertension,31,Female,10,Yes,N,6.5,1,0
+P1317,Drug E,Type-2 Diabetes,42,Female,13,Yes,N,7.4,1,0
+P1318,Drug A,Hypertension,46,Male,13,Yes,N,8.6,1,0
+P1319,Drug B,Type-2 Diabetes,50,Female,27,Yes,N,6.4,1,0
+P1320,Drug E,Arthritis,29,Male,26,No,N,6.4,0,0
+P1321,Drug C,Asthma,20,Female,17,Yes,N,9.4,1,0
+P1322,Drug B,Hypertension,64,Male,18,Yes,Y,9.3,1,1
+P1323,Drug D,Type-2 Diabetes,46,Male,30,No,Y,6.15,0,1
+P1324,Drug D,Arthritis,37,Female,21,No,N,6.2,0,0
+P1325,Drug D,Hypertension,57,Female,15,No,N,4.4,0,0
+P1326,Drug C,Asthma,18,Male,20,Yes,N,10.0,1,0
+P1327,Drug D,Asthma,52,Female,16,No,N,4.9,0,0
+P1328,Drug C,Hypertension,56,Female,20,Yes,N,5.1,1,0
+P1329,Drug C,Arthritis,42,Female,28,No,N,10.0,0,0
+P1330,Drug A,Asthma,34,Male,17,No,Y,7.3,0,1
+P1331,Drug A,Asthma,60,Female,21,Yes,N,8.3,1,0
+P1332,Drug A,Type-2 Diabetes,33,Female,23,Yes,Y,9.3,1,1
+P1333,Drug E,Arthritis,20,Female,24,No,Y,7.4,0,1
+P1334,Drug A,Asthma,69,Male,20,Yes,Y,8.1,1,1
+P1335,Drug D,Asthma,37,Male,18,No,N,5.2,0,0
+P1336,Drug E,Asthma,65,Male,29,Yes,N,7.7,1,0
+P1337,Drug B,Type-2 Diabetes,40,Female,18,Yes,N,7.2,1,0
+P1338,Drug D,Asthma,36,Female,16,Yes,N,4.9,1,0
+P1339,Drug B,Arthritis,71,Female,21,Yes,N,6.1,1,0
+P1340,Drug A,Arthritis,35,Female,25,Yes,N,9.5,1,0
+P1341,Drug D,Arthritis,40,Female,13,No,N,3.8,0,0
+P1342,Drug C,Type-2 Diabetes,51,Male,29,Yes,N,7.9,1,0
+P1343,Drug E,Type-2 Diabetes,61,Male,22,No,N,7.5,0,0
+P1344,Drug E,Arthritis,81,Male,6,No,Y,6.9,0,1
+P1345,Drug C,Arthritis,47,Male,12,Yes,N,6.9,1,0
+P1346,Drug A,Type-2 Diabetes,51,Female,26,Yes,N,8.2,1,0
+P1347,Drug A,Arthritis,43,Male,18,No,N,8.0,0,0
+P1348,Drug D,Arthritis,34,Male,15,No,N,7.5,0,0
+P1349,Drug D,Hypertension,57,Female,24,Yes,N,6.7,1,0
+P1350,Drug E,Asthma,31,Male,22,No,N,8.3,0,0
+P1351,Drug C,Asthma,49,Male,21,Yes,N,8.5,1,0
+P1352,Drug D,Arthritis,46,Female,15,No,N,5.5,0,0
+P1353,Drug D,Type-2 Diabetes,37,Male,24,Yes,Y,6.9,1,1
+P1354,Drug E,Hypertension,66,Female,31,Yes,N,6.4,1,0
+P1355,Drug E,Arthritis,75,Male,25,No,N,8.2,0,0
+P1356,Drug C,Asthma,42,Female,31,Yes,N,8.4,1,0
+P1357,Drug B,Arthritis,46,Female,11,Yes,N,7.1,1,0
+P1358,Drug C,Hypertension,29,Male,28,Yes,N,7.9,1,0
+P1359,Drug C,Asthma,56,Female,24,No,N,9.9,0,0
+P1360,Drug D,Hypertension,37,Male,20,No,N,6.2,0,0
+P1361,Drug A,Hypertension,59,Female,11,No,N,8.1,0,0
+P1362,Drug E,Asthma,57,Female,19,No,N,7.6,0,0
+P1363,Drug E,Asthma,28,Male,23,Yes,N,6.4,1,0
+P1364,Drug B,Hypertension,41,Female,11,No,Y,7.6,0,1
+P1365,Drug C,Hypertension,54,Female,25,Yes,N,9.2,1,0
+P1366,Drug A,Arthritis,48,Female,20,No,N,8.8,0,0
+P1367,Drug A,Hypertension,29,Female,27,Yes,N,8.5,1,0
+P1368,Drug D,Type-2 Diabetes,57,Male,16,Yes,N,5.9,1,0
+P1369,Drug C,Hypertension,31,Female,19,Yes,N,9.7,1,0
+P1370,Drug D,Hypertension,36,Female,12,No,N,4.2,0,0
+P1371,Drug C,Hypertension,23,Female,12,Yes,N,9.5,1,0
+P1372,Drug E,Asthma,18,Male,21,Yes,N,8.5,1,0
+P1373,Drug A,Hypertension,33,Male,15,Yes,N,8.6,1,0
+P1374,Drug D,Arthritis,24,Male,16,No,N,6.15,0,0
+P1375,Drug B,Asthma,62,Female,30,No,N,6.7,0,0
+P1376,Drug D,Asthma,38,Female,21,Yes,N,5.1,1,0
+P1377,Drug B,Arthritis,43,Male,18,No,N,8.4,0,0
+P1378,Drug E,Hypertension,61,Female,5,Yes,N,8.3,1,0
+P1379,Drug D,Hypertension,66,Male,18,Yes,Y,6.5,1,1
+P1380,Drug A,Type-2 Diabetes,45,Male,26,Yes,N,7.4,1,0
+P1381,Drug D,Hypertension,45,Male,25,No,Y,7.6,0,1
+P1382,Drug B,Asthma,32,Male,18,No,N,5.5,0,0
+P1383,Drug D,Hypertension,30,Female,10,No,N,6.15,0,0
+P1384,Drug C,Arthritis,70,Female,10,Yes,N,8.6,1,0
+P1385,Drug A,Hypertension,49,Female,22,Yes,N,7.0,1,0
+P1386,Drug A,Arthritis,77,Male,24,Yes,N,10.0,1,0
+P1387,Drug C,Hypertension,61,Male,20,Yes,N,8.4,1,0
+P1388,Drug A,Asthma,28,Male,27,No,N,6.6,0,0
+P1389,Drug A,Arthritis,62,Female,21,Yes,N,5.2,1,0
+P1390,Drug A,Hypertension,47,Female,22,Yes,N,8.6,1,0
+P1391,Drug C,Arthritis,67,Female,20,Yes,N,7.4,1,0
+P1392,Drug C,Hypertension,50,Male,26,Yes,N,8.9,1,0
+P1393,Drug C,Arthritis,39,Female,25,No,N,7.0,0,0
+P1394,Drug A,Hypertension,21,Female,11,Yes,N,8.6,1,0
+P1395,Drug E,Asthma,64,Female,10,Yes,N,6.8,1,0
+P1396,Drug E,Arthritis,50,Female,22,No,N,7.4,0,0
+P1397,Drug E,Hypertension,42,Female,10,Yes,N,6.8,1,0
+P1398,Drug B,Type-2 Diabetes,54,Female,21,Yes,N,6.8,1,0
+P1399,Drug D,Type-2 Diabetes,53,Female,17,Yes,N,4.3,1,0
+P1400,Drug A,Asthma,59,Male,22,Yes,N,9.7,1,0
+P1401,Drug D,Asthma,31,Female,29,Yes,Y,8.1,1,1
+P1402,Drug E,Arthritis,60,Female,14,Yes,N,6.0,1,0
+P1403,Drug E,Asthma,34,Female,15,Yes,Y,10.0,1,1
+P1404,Drug C,Hypertension,44,Male,15,Yes,N,8.9,1,0
+P1405,Drug D,Arthritis,73,Female,29,No,N,7.0,0,0
+P1406,Drug A,Asthma,73,Male,22,Yes,N,8.1,1,0
+P1407,Drug C,Type-2 Diabetes,52,Female,28,Yes,N,10.0,1,0
+P1408,Drug D,Type-2 Diabetes,56,Female,15,No,Y,4.7,0,1
+P1409,Drug A,Asthma,19,Male,23,Yes,Y,8.7,1,1
+P1410,Drug E,Hypertension,40,Female,18,Yes,N,9.0,1,0
+P1411,Drug C,Hypertension,70,Female,19,Yes,N,9.6,1,0
+P1412,Drug C,Arthritis,80,Male,11,Yes,N,7.7,1,0
+P1413,Drug E,Type-2 Diabetes,18,Male,21,No,N,9.2,0,0
+P1414,Drug E,Type-2 Diabetes,48,Male,18,Yes,N,5.1,1,0
+P1415,Drug A,Arthritis,69,Male,21,No,Y,9.9,0,1
+P1416,Drug B,Arthritis,50,Male,14,No,Y,7.1,0,1
+P1417,Drug B,Hypertension,31,Male,18,Yes,N,8.2,1,0
+P1418,Drug E,Asthma,30,Male,27,Yes,N,5.8,1,0
+P1419,Drug A,Asthma,18,Female,21,No,N,8.3,0,0
+P1420,Drug A,Asthma,18,Female,5,Yes,N,6.8,1,0
+P1421,Drug E,Hypertension,41,Female,21,No,N,5.9,0,0
+P1422,Drug A,Type-2 Diabetes,71,Male,27,No,N,7.4,0,0
+P1423,Drug B,Asthma,75,Female,17,Yes,N,6.7,1,0
+P1424,Drug D,Arthritis,51,Male,23,Yes,N,6.1,1,0
+P1425,Drug B,Type-2 Diabetes,59,Male,19,Yes,N,8.1,1,0
+P1426,Drug E,Hypertension,47,Male,21,No,N,9.7,0,0
+P1427,Drug B,Hypertension,53,Female,22,No,Y,3.7,0,1
+P1428,Drug A,Arthritis,54,Male,25,Yes,N,9.1,1,0
+P1429,Drug D,Hypertension,33,Male,20,No,N,7.4,0,0
+P1430,Drug D,Type-2 Diabetes,64,Male,16,Yes,Y,5.3,1,1
+P1431,Drug B,Arthritis,47,Male,7,No,Y,7.9,0,1
+P1432,Drug D,Type-2 Diabetes,53,Female,16,Yes,N,6.1,1,0
+P1433,Drug C,Asthma,46,Male,20,Yes,N,8.1,1,0
+P1434,Drug C,Arthritis,64,Male,16,No,N,8.1,0,0
+P1435,Drug A,Type-2 Diabetes,51,Male,37,Yes,N,9.5,1,0
+P1436,Drug B,Type-2 Diabetes,58,Male,14,Yes,N,5.8,1,0
+P1437,Drug C,Type-2 Diabetes,23,Female,27,Yes,N,8.8,1,0
+P1438,Drug D,Asthma,75,Female,14,Yes,Y,5.8,1,1
+P1439,Drug D,Type-2 Diabetes,36,Female,29,No,N,8.6,0,0
+P1440,Drug C,Type-2 Diabetes,55,Male,14,Yes,N,9.8,1,0
+P1441,Drug E,Hypertension,61,Male,15,Yes,N,8.1,1,0
+P1442,Drug D,Arthritis,57,Female,24,Yes,N,6.7,1,0
+P1443,Drug A,Hypertension,58,Female,23,Yes,Y,7.7,1,1
+P1444,Drug B,Hypertension,42,Female,18,Yes,N,6.9,1,0
+P1445,Drug B,Arthritis,72,Male,21,No,N,6.1,0,0
+P1446,Drug D,Hypertension,57,Male,10,Yes,N,7.4,1,0
+P1447,Drug C,Asthma,57,Female,29,Yes,N,9.0,1,0
+P1448,Drug E,Asthma,57,Male,23,No,Y,9.0,0,1
+P1449,Drug E,Asthma,64,Male,21,No,N,7.6,0,0
+P1450,Drug C,Type-2 Diabetes,35,Male,19,Yes,N,9.1,1,0
+P1451,Drug D,Arthritis,62,Female,24,Yes,Y,7.4,1,1
+P1452,Drug A,Asthma,57,Male,22,No,N,8.1,0,0
+P1453,Drug C,Arthritis,57,Male,18,Yes,N,7.7,1,0
+P1454,Drug D,Type-2 Diabetes,27,Female,24,Yes,N,5.6,1,0
+P1455,Drug B,Type-2 Diabetes,46,Female,23,No,N,7.9,0,0
+P1456,Drug C,Type-2 Diabetes,54,Female,23,No,N,8.8,0,0
+P1457,Drug C,Arthritis,63,Female,20,Yes,N,7.6,1,0
+P1458,Drug D,Arthritis,60,Male,28,No,N,4.8,0,0
+P1459,Drug A,Asthma,40,Male,25,No,Y,8.4,0,1
+P1460,Drug E,Type-2 Diabetes,45,Male,23,Yes,N,6.8,1,0
+P1461,Drug C,Asthma,52,Female,19,Yes,N,7.2,1,0
+P1462,Drug B,Arthritis,40,Male,20,Yes,Y,6.6,1,1
+P1463,Drug C,Asthma,55,Female,18,Yes,N,8.0,1,0
+P1464,Drug A,Type-2 Diabetes,27,Male,22,No,N,6.9,0,0
+P1465,Drug B,Arthritis,52,Female,23,No,N,5.6,0,0
+P1466,Drug B,Asthma,30,Male,15,Yes,N,6.9,1,0
+P1467,Drug B,Hypertension,47,Male,7,No,Y,5.5,0,1
+P1468,Drug B,Hypertension,64,Female,28,No,N,7.7,0,0
+P1469,Drug A,Hypertension,50,Male,32,No,Y,5.0,0,1
+P1470,Drug D,Arthritis,66,Male,10,Yes,N,6.0,1,0
+P1471,Drug A,Arthritis,34,Female,21,Yes,N,10.0,1,0
+P1472,Drug D,Asthma,34,Male,22,Yes,N,7.3,1,0
+P1473,Drug B,Type-2 Diabetes,44,Male,33,No,N,8.8,0,0
+P1474,Drug C,Arthritis,66,Male,21,Yes,N,7.5,1,0
+P1475,Drug D,Hypertension,22,Male,28,Yes,N,6.7,1,0
+P1476,Drug D,Type-2 Diabetes,18,Male,15,Yes,N,5.4,1,0
+P1477,Drug C,Asthma,37,Female,26,Yes,Y,9.5,1,1
+P1478,Drug B,Asthma,76,Male,19,No,N,7.0,0,0
+P1479,Drug E,Arthritis,75,Female,14,Yes,N,8.2,1,0
+P1480,Drug D,Hypertension,38,Female,28,Yes,N,6.1,1,0
+P1481,Drug C,Hypertension,44,Female,8,Yes,N,8.1,1,0
+P1482,Drug A,Asthma,25,Male,18,Yes,N,9.0,1,0
+P1483,Drug C,Arthritis,66,Male,22,Yes,N,10.0,1,0
+P1484,Drug B,Arthritis,64,Male,17,Yes,Y,5.9,1,1
+P1485,Drug E,Hypertension,23,Female,22,No,N,7.3,0,0
+P1486,Drug C,Hypertension,38,Male,7,Yes,N,7.5,1,0
+P1487,Drug D,Asthma,49,Female,27,No,Y,7.3,0,1
+P1488,Drug C,Arthritis,31,Male,16,Yes,N,7.1,1,0
+P1489,Drug D,Type-2 Diabetes,29,Male,22,Yes,N,4.8,1,0
+P1490,Drug A,Asthma,51,Female,17,Yes,N,9.0,1,0
+P1491,Drug A,Type-2 Diabetes,42,Male,31,Yes,N,7.0,1,0
+P1492,Drug B,Hypertension,65,Female,17,Yes,Y,5.6,1,1
+P1493,Drug A,Hypertension,32,Male,20,No,N,6.9,0,0
+P1494,Drug B,Hypertension,59,Male,21,Yes,Y,5.0,1,1
+P1495,Drug D,Asthma,32,Female,25,No,N,8.4,0,0
+P1496,Drug B,Hypertension,57,Male,19,Yes,N,7.0,1,0
+P1497,Drug E,Arthritis,50,Male,24,Yes,N,9.2,1,0
+P1498,Drug C,Type-2 Diabetes,33,Female,23,Yes,N,8.7,1,0
+P1499,Drug B,Type-2 Diabetes,45,Male,25,No,Y,6.1,0,1
+P1500,Drug D,Type-2 Diabetes,48,Female,14,Yes,N,5.5,1,0
+P1501,Drug B,Arthritis,51,Female,19,No,N,4.3,0,0
+P1502,Drug A,Type-2 Diabetes,31,Female,28,Yes,N,8.2,1,0
+P1503,Drug E,Arthritis,47,Male,26,Yes,N,6.5,1,0
+P1504,Drug D,Arthritis,53,Female,14,Yes,N,8.4,1,0
+P1505,Drug B,Arthritis,43,Male,24,Yes,N,6.4,1,0
+P1506,Drug C,Asthma,63,Male,17,Yes,N,10.0,1,0
+P1507,Drug B,Type-2 Diabetes,20,Male,15,Yes,N,9.0,1,0
+P1508,Drug D,Type-2 Diabetes,41,Male,21,No,Y,6.2,0,1
+P1509,Drug C,Arthritis,25,Female,19,Yes,N,9.0,1,0
+P1510,Drug C,Hypertension,25,Male,19,Yes,N,7.4,1,0
+P1511,Drug D,Type-2 Diabetes,46,Female,18,Yes,N,6.4,1,0
+P1512,Drug B,Asthma,47,Male,10,Yes,N,8.4,1,0
+P1513,Drug C,Hypertension,59,Male,28,Yes,N,7.3,1,0
+P1514,Drug C,Asthma,67,Male,29,Yes,N,7.2,1,0
+P1515,Drug C,Type-2 Diabetes,40,Male,12,Yes,N,8.4,1,0
+P1516,Drug C,Hypertension,28,Female,14,Yes,N,8.6,1,0
+P1517,Drug A,Asthma,43,Male,28,No,N,6.8,0,0
+P1518,Drug A,Arthritis,63,Male,23,Yes,N,10.0,1,0
+P1519,Drug B,Asthma,42,Male,20,No,Y,6.7,0,1
+P1520,Drug C,Hypertension,45,Female,21,Yes,N,8.6,1,0
+P1521,Drug B,Asthma,40,Male,23,Yes,N,8.8,1,0
+P1522,Drug D,Hypertension,66,Female,24,No,Y,5.8,0,1
+P1523,Drug D,Hypertension,39,Female,16,Yes,N,6.9,1,0
+P1524,Drug D,Hypertension,60,Female,12,Yes,N,7.2,1,0
+P1525,Drug E,Arthritis,52,Female,16,No,Y,6.8,0,1
+P1526,Drug B,Arthritis,71,Male,24,Yes,N,5.9,1,0
+P1527,Drug D,Asthma,43,Male,23,Yes,Y,7.1,1,1
+P1528,Drug D,Type-2 Diabetes,62,Female,16,Yes,Y,6.7,1,1
+P1529,Drug E,Arthritis,67,Male,5,No,Y,7.7,0,1
+P1530,Drug B,Type-2 Diabetes,57,Male,19,Yes,N,8.2,1,0
+P1531,Drug D,Arthritis,20,Female,33,Yes,N,6.1,1,0
+P1532,Drug E,Arthritis,22,Male,24,Yes,Y,6.8,1,1
+P1533,Drug A,Type-2 Diabetes,84,Male,16,No,N,7.0,0,0
+P1534,Drug B,Hypertension,52,Male,25,Yes,N,9.9,1,0
+P1535,Drug A,Hypertension,47,Female,24,Yes,N,6.7,1,0
+P1536,Drug B,Arthritis,43,Male,19,No,N,4.4,0,0
+P1537,Drug B,Arthritis,47,Female,27,No,N,7.7,0,0
+P1538,Drug C,Asthma,65,Female,13,Yes,N,9.2,1,0
+P1539,Drug E,Arthritis,52,Female,27,Yes,Y,5.4,1,1
+P1540,Drug D,Hypertension,49,Female,11,No,N,5.9,0,0
+P1541,Drug D,Arthritis,61,Male,14,No,Y,6.9,0,1
+P1542,Drug D,Arthritis,65,Male,16,Yes,N,4.6,1,0
+P1543,Drug C,Type-2 Diabetes,52,Male,22,Yes,N,7.2,1,0
+P1544,Drug E,Hypertension,49,Male,8,Yes,Y,8.1,1,1
+P1545,Drug D,Arthritis,61,Male,20,Yes,N,4.7,1,0
+P1546,Drug C,Asthma,64,Male,17,No,N,8.7,0,0
+P1547,Drug A,Hypertension,63,Male,25,Yes,N,10.0,1,0
+P1548,Drug D,Type-2 Diabetes,51,Male,24,No,N,4.9,0,0
+P1549,Drug C,Type-2 Diabetes,53,Male,14,Yes,N,10.0,1,0
+P1550,Drug C,Hypertension,52,Female,14,Yes,N,6.8,1,0
+P1551,Drug C,Asthma,33,Female,20,No,N,7.7,0,0
+P1552,Drug B,Arthritis,77,Female,26,Yes,N,6.9,1,0
+P1553,Drug C,Asthma,51,Male,27,Yes,N,7.8,1,0
+P1554,Drug E,Asthma,32,Female,19,Yes,N,8.9,1,0
+P1555,Drug A,Type-2 Diabetes,71,Male,21,Yes,N,8.2,1,0
+P1556,Drug E,Asthma,49,Female,14,Yes,N,7.4,1,0
+P1557,Drug A,Arthritis,22,Female,32,Yes,N,7.2,1,0
+P1558,Drug A,Hypertension,50,Female,35,No,N,8.7,0,0
+P1559,Drug C,Hypertension,39,Female,18,Yes,N,7.3,1,0
