@@ -1,0 +1,621 @@
+patient_id,department,age,gender,length_of_stay_days,treatment_cost,recovery_status,readmitted_30d,recovered_flag,readmitted_flag,cost_per_day,age_bracket
+H2000,Neurology,46,Male,9,290140,Recovered,Yes,1,1,32238,36-60
+H2001,Neurology,95,Female,11,189040,Recovered,No,1,0,17185,60+
+H2002,General Medicine,33,Female,3,91254,Recovered,No,1,0,30418,19-35
+H2003,Cardiology,56,Female,4,207026,Not Recovered,No,0,0,51756,36-60
+H2004,Cardiology,31,Male,5,161276,Recovered,No,1,0,32255,19-35
+H2005,Oncology,35,Male,7,273055,Not Recovered,No,0,0,39008,19-35
+H2006,Neurology,14,Female,5,173581,Recovered,No,1,0,34716,0-18
+H2007,Orthopedics,78,Female,8,104838,Recovered,No,1,0,13105,60+
+H2008,General Medicine,56,Female,8,54508,Not Recovered,No,0,0,6814,36-60
+H2009,General Medicine,56,Male,1,81136,Recovered,No,1,0,81136,36-60
+H2010,Oncology,69,Female,10,351571,Recovered,No,1,0,35157,60+
+H2011,Neurology,52,Male,14,211164,Recovered,No,1,0,15083,36-60
+H2012,Orthopedics,54,Male,4,69185,Recovered,No,1,0,17296,36-60
+H2013,Neurology,71,Female,10,267301,Not Recovered,No,0,0,26730,60+
+H2014,Neurology,48,Female,10,112209,Recovered,No,1,0,11221,36-60
+H2015,General Medicine,68,Female,2,62069,Recovered,No,1,0,31034,60+
+H2016,General Medicine,61,Female,3,78533,Recovered,No,1,0,26178,60+
+H2017,General Medicine,50,Female,4,88090,Not Recovered,No,0,0,22022,36-60
+H2018,Orthopedics,55,Female,4,162231,Recovered,Yes,1,1,40558,36-60
+H2019,Oncology,51,Female,10,239983,Not Recovered,No,0,0,23998,36-60
+H2020,Orthopedics,82,Male,4,106256,Recovered,No,1,0,26564,60+
+H2021,Cardiology,57,Female,4,223909,Recovered,No,1,0,55977,36-60
+H2022,Cardiology,52,Female,4,165692,Recovered,Yes,1,1,41423,36-60
+H2023,General Medicine,83,Male,3,95613,Recovered,No,1,0,31871,60+
+H2024,General Medicine,14,Female,1,103574,Recovered,No,1,0,103574,0-18
+H2025,General Medicine,64,Male,4,36773,Recovered,No,1,0,9193,60+
+H2026,Oncology,78,Male,13,345963,Not Recovered,No,0,0,26613,60+
+H2027,Oncology,49,Female,12,275821,Not Recovered,No,0,0,22985,36-60
+H2028,Oncology,48,Female,14,372756,Not Recovered,No,0,0,26625,36-60
+H2029,Neurology,82,Male,10,124404,Not Recovered,No,0,0,12440,60+
+H2030,General Medicine,50,Male,2,76159,Not Recovered,No,0,0,38080,36-60
+H2031,Orthopedics,53,Female,6,99102,Recovered,No,1,0,16517,36-60
+H2032,Neurology,9,Female,9,121946,Not Recovered,No,0,0,13550,0-18
+H2033,General Medicine,39,Female,7,71941,Recovered,No,1,0,10277,36-60
+H2034,Neurology,53,Male,7,181614,Recovered,No,1,0,25945,36-60
+H2035,Cardiology,58,Male,5,209604,Recovered,No,1,0,41921,36-60
+H2036,General Medicine,54,Female,3,101407,Recovered,No,1,0,33802,36-60
+H2037,Oncology,52,Male,14,222697,Not Recovered,Yes,0,1,15907,36-60
+H2038,Neurology,43,Male,12,152474,Recovered,No,1,0,12706,36-60
+H2039,General Medicine,88,Male,8,40198,Recovered,No,1,0,5025,60+
+H2040,Oncology,40,Male,13,254317,Recovered,No,1,0,19563,36-60
+H2041,Oncology,49,Male,14,210224,Not Recovered,Yes,0,1,15016,36-60
+H2042,Cardiology,52,Male,5,144619,Recovered,No,1,0,28924,36-60
+H2043,Oncology,45,Male,10,298578,Recovered,No,1,0,29858,36-60
+H2044,General Medicine,25,Male,4,97264,Recovered,No,1,0,24316,19-35
+H2045,Neurology,53,Male,8,95232,Recovered,No,1,0,11904,36-60
+H2046,Oncology,75,Male,11,257056,Recovered,No,1,0,23369,60+
+H2047,Neurology,26,Female,8,247514,Recovered,No,1,0,30939,19-35
+H2048,Cardiology,43,Female,5,140179,Recovered,No,1,0,28036,36-60
+H2049,Neurology,63,Male,6,218819,Recovered,No,1,0,36470,60+
+H2050,Cardiology,78,Male,4,187816,Not Recovered,No,0,0,46954,60+
+H2051,Neurology,57,Female,7,269389,Recovered,No,1,0,38484,36-60
+H2052,General Medicine,19,Male,3,63894,Not Recovered,No,0,0,21298,19-35
+H2053,General Medicine,69,Female,4,58404,Recovered,No,1,0,14601,60+
+H2054,Neurology,20,Male,10,200827,Not Recovered,No,0,0,20083,19-35
+H2055,Oncology,53,Male,12,308967,Not Recovered,No,0,0,25747,36-60
+H2056,General Medicine,60,Male,6,24728,Recovered,No,1,0,4121,36-60
+H2057,Neurology,39,Female,9,173442,Recovered,No,1,0,19271,36-60
+H2058,Cardiology,54,Female,6,200608,Recovered,No,1,0,33435,36-60
+H2059,General Medicine,54,Female,1,44799,Recovered,No,1,0,44799,36-60
+H2060,Orthopedics,44,Male,2,111443,Not Recovered,No,0,0,55722,36-60
+H2061,Cardiology,77,Male,8,111136,Recovered,No,1,0,13892,60+
+H2062,Neurology,44,Male,5,177987,Recovered,No,1,0,35597,36-60
+H2063,General Medicine,41,Female,1,56998,Recovered,No,1,0,56998,36-60
+H2064,Cardiology,30,Male,4,224662,Not Recovered,No,0,0,56166,19-35
+H2065,General Medicine,44,Female,6,48420,Recovered,Yes,1,1,8070,36-60
+H2066,Cardiology,63,Male,4,230241,Recovered,No,1,0,57560,60+
+H2067,General Medicine,56,Female,4,62069,Recovered,No,1,0,15517,36-60
+H2068,Neurology,41,Male,10,88248,Not Recovered,No,0,0,8825,36-60
+H2069,Cardiology,23,Female,3,195978,Not Recovered,No,0,0,65326,19-35
+H2070,General Medicine,65,Female,4,60900,Recovered,No,1,0,15225,60+
+H2071,General Medicine,38,Female,1,5000,Recovered,No,1,0,5000,36-60
+H2072,Cardiology,64,Male,5,191065,Recovered,No,1,0,38213,60+
+H2073,Oncology,69,Male,13,313458,Not Recovered,No,0,0,24112,60+
+H2074,Orthopedics,95,Male,3,91231,Recovered,No,1,0,30410,60+
+H2075,Oncology,37,Male,10,430359,Recovered,No,1,0,43036,36-60
+H2076,Cardiology,65,Male,5,198546,Recovered,No,1,0,39709,60+
+H2077,Neurology,40,Male,7,189578,Recovered,No,1,0,27083,36-60
+H2078,General Medicine,22,Female,1,66620,Recovered,No,1,0,66620,19-35
+H2079,Oncology,47,Male,11,177843,Recovered,No,1,0,16168,36-60
+H2080,Orthopedics,64,Female,4,117993,Recovered,No,1,0,29498,60+
+H2081,General Medicine,38,Female,6,53993,Recovered,No,1,0,8999,36-60
+H2082,Cardiology,41,Male,5,230354,Recovered,No,1,0,46071,36-60
+H2083,Orthopedics,42,Male,3,76239,Recovered,No,1,0,25413,36-60
+H2084,Orthopedics,61,Female,5,72486,Recovered,No,1,0,14497,60+
+H2085,Cardiology,37,Female,10,177820,Recovered,No,1,0,17782,36-60
+H2086,Oncology,47,Male,13,74026,Not Recovered,No,0,0,5694,36-60
+H2087,Cardiology,95,Female,5,179924,Recovered,No,1,0,35985,60+
+H2088,Oncology,46,Female,9,360474,Recovered,No,1,0,40053,36-60
+H2089,Oncology,68,Female,8,249833,Recovered,Yes,1,1,31229,60+
+H2090,Oncology,40,Female,14,378823,Not Recovered,No,0,0,27059,36-60
+H2091,General Medicine,43,Female,1,56405,Recovered,No,1,0,56405,36-60
+H2092,Orthopedics,58,Male,4,140324,Recovered,Yes,1,1,35081,36-60
+H2093,General Medicine,47,Female,4,91265,Recovered,No,1,0,22816,36-60
+H2094,Orthopedics,19,Male,2,81172,Recovered,Yes,1,1,40586,19-35
+H2095,Cardiology,9,Male,5,136974,Recovered,No,1,0,27395,0-18
+H2096,Cardiology,42,Female,7,213850,Recovered,No,1,0,30550,36-60
+H2097,Neurology,39,Female,7,282819,Not Recovered,No,0,0,40403,36-60
+H2098,Oncology,47,Female,10,352514,Not Recovered,No,0,0,35251,36-60
+H2099,Neurology,48,Female,9,284977,Recovered,No,1,0,31664,36-60
+H2100,Neurology,47,Male,9,208035.5,Not Recovered,No,0,0,23115,36-60
+H2101,Cardiology,52,Male,5,205005,Recovered,No,1,0,41001,36-60
+H2102,Cardiology,87,Male,9,153785,Recovered,No,1,0,17087,60+
+H2103,Cardiology,95,Male,9,183644,Recovered,No,1,0,20405,60+
+H2104,General Medicine,68,Female,4,45618,Recovered,No,1,0,11404,60+
+H2105,Oncology,79,Male,15,317123,Recovered,No,1,0,21142,60+
+H2106,Oncology,40,Female,10,327629,Recovered,No,1,0,32763,36-60
+H2107,General Medicine,53,Male,2,77351,Not Recovered,No,0,0,38676,36-60
+H2108,Neurology,34,Male,11,209252,Recovered,No,1,0,19023,19-35
+H2109,General Medicine,53,Female,1,85701,Not Recovered,No,0,0,85701,36-60
+H2110,Oncology,52,Female,7,207405,Recovered,No,1,0,29629,36-60
+H2111,Orthopedics,19,Male,6,160031,Recovered,No,1,0,26672,19-35
+H2112,Neurology,47,Female,6,262754,Recovered,No,1,0,43792,36-60
+H2113,Cardiology,63,Female,4,190698,Not Recovered,No,0,0,47674,60+
+H2114,Orthopedics,50,Female,7,141833,Not Recovered,No,0,0,20262,36-60
+H2115,Orthopedics,27,Male,5,97448,Recovered,No,1,0,19490,19-35
+H2116,Cardiology,25,Male,5,129805,Not Recovered,No,0,0,25961,19-35
+H2117,General Medicine,75,Female,1,53605,Recovered,No,1,0,53605,60+
+H2118,Orthopedics,23,Female,7,143047,Recovered,No,1,0,20435,19-35
+H2119,Neurology,56,Female,11,259916,Not Recovered,No,0,0,23629,36-60
+H2120,Orthopedics,81,Male,6,123057,Recovered,No,1,0,20510,60+
+H2121,Neurology,41,Male,9,299089,Recovered,No,1,0,33232,36-60
+H2122,General Medicine,39,Female,1,35169,Recovered,No,1,0,35169,36-60
+H2123,General Medicine,55,Male,5,69424,Not Recovered,No,0,0,13885,36-60
+H2124,Cardiology,60,Male,9,218724,Recovered,No,1,0,24303,36-60
+H2125,Orthopedics,30,Female,5,47118,Recovered,No,1,0,9424,19-35
+H2126,Cardiology,55,Female,4,233371,Recovered,No,1,0,58343,36-60
+H2127,Oncology,70,Male,10,343854,Not Recovered,No,0,0,34385,60+
+H2128,General Medicine,79,Male,4,77355,Recovered,Yes,1,1,19339,60+
+H2129,Cardiology,44,Male,3,162596,Recovered,No,1,0,54199,36-60
+H2130,Cardiology,38,Female,6,219894,Not Recovered,No,0,0,36649,36-60
+H2131,Neurology,36,Male,8,252354,Recovered,No,1,0,31544,36-60
+H2132,General Medicine,60,Male,5,62631,Recovered,No,1,0,12526,36-60
+H2133,Cardiology,31,Female,9,123348,Recovered,No,1,0,13705,19-35
+H2134,Cardiology,35,Male,3,160437,Not Recovered,No,0,0,53479,19-35
+H2135,Cardiology,25,Female,5,161423,Recovered,No,1,0,32285,19-35
+H2136,General Medicine,55,Male,3,82061,Recovered,No,1,0,27354,36-60
+H2137,Neurology,69,Male,8,282917,Recovered,Yes,1,1,35365,60+
+H2138,Neurology,36,Male,13,246220,Recovered,No,1,0,18940,36-60
+H2139,Cardiology,51,Male,9,198308,Recovered,No,1,0,22034,36-60
+H2140,General Medicine,56,Male,4,63508,Recovered,No,1,0,15877,36-60
+H2141,Cardiology,68,Female,7,80363,Not Recovered,No,0,0,11480,60+
+H2142,Oncology,58,Female,8,243299,Not Recovered,No,0,0,30412,36-60
+H2143,Cardiology,57,Male,5,154414,Recovered,No,1,0,30883,36-60
+H2144,Neurology,54,Female,8,181469,Recovered,Yes,1,1,22684,36-60
+H2145,Cardiology,51,Male,7,116942,Recovered,No,1,0,16706,36-60
+H2146,Neurology,67,Male,10,184792,Recovered,No,1,0,18479,60+
+H2147,Orthopedics,40,Female,6,142808,Recovered,No,1,0,23801,36-60
+H2148,Orthopedics,15,Male,1,92601,Recovered,No,1,0,92601,0-18
+H2149,Oncology,55,Male,11,387060,Recovered,No,1,0,35187,36-60
+H2150,Cardiology,26,Female,5,249298,Recovered,No,1,0,49860,19-35
+H2151,Oncology,44,Female,10,359890,Recovered,No,1,0,35989,36-60
+H2152,Cardiology,1,Male,10,187413,Recovered,No,1,0,18741,0-18
+H2153,Neurology,67,Female,5,191793,Not Recovered,No,0,0,38359,60+
+H2154,Oncology,46,Female,14,125345,Recovered,No,1,0,8953,36-60
+H2155,Cardiology,60,Male,9,224110,Not Recovered,No,0,0,24901,36-60
+H2156,General Medicine,30,Male,1,37076,Not Recovered,No,0,0,37076,19-35
+H2157,General Medicine,77,Male,5,55549,Not Recovered,Yes,0,1,11110,60+
+H2158,Cardiology,39,Female,6,231343,Recovered,No,1,0,38557,36-60
+H2159,General Medicine,58,Male,4,35724,Recovered,No,1,0,8931,36-60
+H2160,Neurology,53,Male,8,90653,Not Recovered,No,0,0,11332,36-60
+H2161,Oncology,20,Male,13,297607,Recovered,No,1,0,22893,19-35
+H2162,General Medicine,54,Female,5,82808,Recovered,No,1,0,16562,36-60
+H2163,General Medicine,28,Female,3,75632,Recovered,No,1,0,25211,19-35
+H2164,General Medicine,58,Male,1,25003,Recovered,No,1,0,25003,36-60
+H2165,Cardiology,43,Female,2,188058,Recovered,No,1,0,94029,36-60
+H2166,Orthopedics,67,Male,5,115049,Recovered,No,1,0,23010,60+
+H2167,Orthopedics,72,Male,5,156179,Recovered,Yes,1,1,31236,60+
+H2168,Cardiology,42,Female,6,101106,Recovered,No,1,0,16851,36-60
+H2169,Neurology,13,Female,7,208035.5,Recovered,No,1,0,29719,0-18
+H2170,Orthopedics,40,Female,5,150522,Recovered,No,1,0,30104,36-60
+H2171,Oncology,43,Male,13,358216,Not Recovered,No,0,0,27555,36-60
+H2172,Neurology,72,Female,10,219377,Not Recovered,Yes,0,1,21938,60+
+H2173,Cardiology,31,Male,5,205177,Recovered,No,1,0,41035,19-35
+H2174,Orthopedics,52,Male,4,109197,Recovered,No,1,0,27299,36-60
+H2175,General Medicine,60,Male,5,35388,Not Recovered,No,0,0,7078,36-60
+H2176,Neurology,91,Female,11,139655,Recovered,No,1,0,12696,60+
+H2177,General Medicine,37,Male,2,57779,Recovered,No,1,0,28890,36-60
+H2178,Cardiology,16,Male,6,253239,Recovered,Yes,1,1,42206,0-18
+H2179,Orthopedics,95,Male,4,105604,Recovered,No,1,0,26401,60+
+H2180,Orthopedics,72,Female,6,122606,Recovered,No,1,0,20434,60+
+H2181,Orthopedics,79,Female,8,123767,Recovered,No,1,0,15471,60+
+H2182,Oncology,22,Female,14,305652,Recovered,No,1,0,21832,19-35
+H2183,Neurology,30,Male,10,189593,Recovered,No,1,0,18959,19-35
+H2184,General Medicine,69,Male,1,81640,Recovered,No,1,0,81640,60+
+H2185,Cardiology,40,Female,6,132644,Not Recovered,No,0,0,22107,36-60
+H2186,Oncology,59,Female,13,211371,Recovered,No,1,0,16259,36-60
+H2187,Oncology,38,Female,16,168761,Not Recovered,Yes,0,1,10548,36-60
+H2188,Cardiology,58,Male,4,164945,Not Recovered,No,0,0,41236,36-60
+H2189,Cardiology,41,Male,7,140523,Recovered,No,1,0,20075,36-60
+H2190,General Medicine,10,Male,1,83577,Recovered,No,1,0,83577,0-18
+H2191,Oncology,35,Male,5,415643,Recovered,No,1,0,83129,19-35
+H2192,Orthopedics,54,Female,5,168605,Recovered,No,1,0,33721,36-60
+H2193,General Medicine,37,Male,1,62069,Recovered,No,1,0,62069,36-60
+H2194,Cardiology,45,Male,8,103099,Recovered,No,1,0,12887,36-60
+H2195,Orthopedics,49,Female,4,124774,Recovered,Yes,1,1,31194,36-60
+H2196,General Medicine,36,Female,4,46202,Recovered,No,1,0,11550,36-60
+H2197,Cardiology,43,Male,2,177078,Recovered,Yes,1,1,88539,36-60
+H2198,Oncology,52,Female,15,297607,Not Recovered,No,0,0,19840,36-60
+H2199,Neurology,46,Male,11,251106,Not Recovered,No,0,0,22828,36-60
+H2200,Oncology,80,Male,11,285688,Not Recovered,Yes,0,1,25972,60+
+H2201,General Medicine,44,Male,4,52232,Recovered,No,1,0,13058,36-60
+H2202,General Medicine,44,Male,1,87773,Recovered,No,1,0,87773,36-60
+H2203,Cardiology,74,Female,3,98182,Recovered,No,1,0,32727,60+
+H2204,Neurology,47,Female,7,256498,Recovered,No,1,0,36643,36-60
+H2205,General Medicine,57,Female,3,90248,Recovered,No,1,0,30083,36-60
+H2206,Cardiology,36,Female,8,205618,Recovered,No,1,0,25702,36-60
+H2207,Oncology,60,Female,13,394907,Not Recovered,No,0,0,30377,36-60
+H2208,Cardiology,35,Female,1,209988,Recovered,Yes,1,1,209988,19-35
+H2209,Neurology,77,Male,4,307149,Not Recovered,No,0,0,76787,60+
+H2210,General Medicine,57,Male,5,50420,Recovered,No,1,0,10084,36-60
+H2211,Orthopedics,25,Male,6,137081,Recovered,No,1,0,22847,19-35
+H2212,Neurology,58,Male,10,199706,Recovered,No,1,0,19971,36-60
+H2213,Cardiology,69,Male,6,147610,Recovered,No,1,0,24602,60+
+H2214,General Medicine,62,Female,4,77502,Recovered,No,1,0,19376,60+
+H2215,Neurology,27,Male,8,179898,Recovered,No,1,0,22487,19-35
+H2216,Cardiology,38,Female,6,186192,Recovered,No,1,0,31032,36-60
+H2217,Oncology,53,Female,12,221634,Recovered,No,1,0,18470,36-60
+H2218,Cardiology,57,Female,6,206837,Recovered,No,1,0,34473,36-60
+H2219,Neurology,68,Male,5,192906,Recovered,No,1,0,38581,60+
+H2220,Orthopedics,29,Female,2,77105,Recovered,No,1,0,38552,19-35
+H2221,Cardiology,40,Male,4,211352,Recovered,Yes,1,1,52838,36-60
+H2222,General Medicine,72,Male,4,68944,Not Recovered,No,0,0,17236,60+
+H2223,Oncology,47,Female,9,486175,Not Recovered,No,0,0,54019,36-60
+H2224,General Medicine,58,Female,6,55592,Recovered,No,1,0,9265,36-60
+H2225,General Medicine,23,Male,11,43576,Recovered,No,1,0,3961,19-35
+H2226,Oncology,48,Male,12,247792,Not Recovered,No,0,0,20649,36-60
+H2227,Neurology,50,Female,7,240513,Recovered,No,1,0,34359,36-60
+H2228,Neurology,61,Male,6,116391,Not Recovered,No,0,0,19398,60+
+H2229,General Medicine,62,Female,4,87190,Recovered,No,1,0,21798,60+
+H2230,Neurology,42,Male,9,289538,Recovered,Yes,1,1,32171,36-60
+H2231,Cardiology,50,Female,2,181972,Recovered,No,1,0,90986,36-60
+H2232,Orthopedics,58,Male,1,115701,Recovered,No,1,0,115701,36-60
+H2233,Cardiology,21,Male,6,239892,Recovered,No,1,0,39982,19-35
+H2234,Orthopedics,57,Male,5,137764,Recovered,No,1,0,27553,36-60
+H2235,Orthopedics,46,Male,2,99376,Recovered,No,1,0,49688,36-60
+H2236,Oncology,54,Female,13,280090,Recovered,Yes,1,1,21545,36-60
+H2237,General Medicine,12,Male,4,47161,Recovered,No,1,0,11790,0-18
+H2238,Neurology,7,Female,7,167391,Recovered,No,1,0,23913,0-18
+H2239,General Medicine,76,Male,5,63628,Recovered,No,1,0,12726,60+
+H2240,Oncology,66,Female,15,277667,Recovered,No,1,0,18511,60+
+H2241,Orthopedics,60,Male,5,130895,Recovered,Yes,1,1,26179,36-60
+H2242,Oncology,47,Female,12,226929,Recovered,Yes,1,1,18911,36-60
+H2243,General Medicine,34,Female,7,44104,Recovered,No,1,0,6301,19-35
+H2244,Cardiology,50,Male,6,205754,Recovered,No,1,0,34292,36-60
+H2245,Orthopedics,22,Male,1,122606,Recovered,No,1,0,122606,19-35
+H2246,Cardiology,34,Female,5,192181,Recovered,Yes,1,1,38436,19-35
+H2247,Oncology,34,Female,10,312505,Recovered,No,1,0,31250,19-35
+H2248,Cardiology,41,Female,5,193004,Not Recovered,No,0,0,38601,36-60
+H2249,Oncology,66,Male,11,423572,Recovered,No,1,0,38507,60+
+H2250,General Medicine,65,Male,5,64238,Recovered,No,1,0,12848,60+
+H2251,Cardiology,93,Female,3,211093,Not Recovered,No,0,0,70364,60+
+H2252,Cardiology,66,Male,8,191182,Recovered,No,1,0,23898,60+
+H2253,General Medicine,35,Female,3,39974,Recovered,No,1,0,13325,19-35
+H2254,Cardiology,69,Female,9,245062,Not Recovered,No,0,0,27229,60+
+H2255,Oncology,60,Male,9,173278,Recovered,No,1,0,19253,36-60
+H2256,Orthopedics,95,Male,3,105428,Recovered,No,1,0,35143,60+
+H2257,Orthopedics,71,Female,6,132862,Recovered,Yes,1,1,22144,60+
+H2258,Neurology,53,Female,9,274161,Recovered,No,1,0,30462,36-60
+H2259,Cardiology,56,Male,4,161132,Not Recovered,Yes,0,1,40283,36-60
+H2260,Neurology,85,Female,10,265641,Recovered,No,1,0,26564,60+
+H2261,Orthopedics,78,Male,4,131283,Recovered,No,1,0,32821,60+
+H2262,Orthopedics,59,Male,3,113424,Recovered,No,1,0,37808,36-60
+H2263,Neurology,59,Male,12,357844,Recovered,No,1,0,29820,36-60
+H2264,Cardiology,55,Female,5,220781,Recovered,No,1,0,44156,36-60
+H2265,General Medicine,77,Female,4,34775,Recovered,No,1,0,8694,60+
+H2266,Cardiology,54,Female,5,252540,Recovered,Yes,1,1,50508,36-60
+H2267,Oncology,29,Male,13,372343,Not Recovered,No,0,0,28642,19-35
+H2268,General Medicine,42,Female,4,69310,Recovered,No,1,0,17328,36-60
+H2269,Orthopedics,90,Male,7,104999,Recovered,No,1,0,15000,60+
+H2270,Oncology,62,Male,12,232204,Recovered,No,1,0,19350,60+
+H2271,General Medicine,40,Male,4,50863,Recovered,No,1,0,12716,36-60
+H2272,Neurology,17,Male,11,223784,Not Recovered,No,0,0,20344,0-18
+H2273,General Medicine,29,Female,4,81237,Recovered,No,1,0,20309,19-35
+H2274,Cardiology,35,Female,5,193004,Recovered,No,1,0,38601,19-35
+H2275,General Medicine,63,Female,1,46751,Recovered,Yes,1,1,46751,60+
+H2276,Neurology,45,Male,11,245634,Recovered,No,1,0,22330,36-60
+H2277,Orthopedics,55,Male,5,123319,Recovered,No,1,0,24664,36-60
+H2278,Oncology,46,Male,10,298703,Recovered,No,1,0,29870,36-60
+H2279,General Medicine,55,Female,1,46996,Recovered,No,1,0,46996,36-60
+H2280,Neurology,53,Female,6,239545,Not Recovered,No,0,0,39924,36-60
+H2281,Oncology,48,Female,13,447176,Not Recovered,Yes,0,1,34398,36-60
+H2282,General Medicine,57,Male,3,69691,Recovered,No,1,0,23230,36-60
+H2283,Orthopedics,54,Female,2,71822,Recovered,No,1,0,35911,36-60
+H2284,Orthopedics,95,Male,4,127885,Recovered,No,1,0,31971,60+
+H2285,Orthopedics,50,Male,7,85597,Not Recovered,No,0,0,12228,36-60
+H2286,Neurology,20,Female,5,170878,Not Recovered,No,0,0,34176,19-35
+H2287,Neurology,56,Male,9,218013,Not Recovered,No,0,0,24224,36-60
+H2288,Oncology,52,Male,16,272988,Not Recovered,No,0,0,17062,36-60
+H2289,Oncology,57,Female,14,297607,Recovered,No,1,0,21258,36-60
+H2290,Cardiology,54,Male,7,81036,Recovered,No,1,0,11577,36-60
+H2291,Cardiology,37,Female,4,299966,Recovered,No,1,0,74992,36-60
+H2292,General Medicine,60,Female,3,68913,Recovered,No,1,0,22971,36-60
+H2293,Cardiology,58,Male,6,221776,Recovered,No,1,0,36963,36-60
+H2294,Cardiology,66,Male,9,147046,Recovered,No,1,0,16338,60+
+H2295,Cardiology,53,Female,4,118842,Recovered,No,1,0,29710,36-60
+H2296,Oncology,62,Female,15,105578,Recovered,No,1,0,7039,60+
+H2297,Neurology,58,Female,12,209832,Recovered,Yes,1,1,17486,36-60
+H2298,Orthopedics,70,Female,4,133176,Recovered,No,1,0,33294,60+
+H2299,Neurology,57,Male,14,201097,Not Recovered,No,0,0,14364,36-60
+H2300,Neurology,58,Male,5,177600,Recovered,No,1,0,35520,36-60
+H2301,General Medicine,58,Male,9,75484,Recovered,No,1,0,8387,36-60
+H2302,Cardiology,54,Male,6,260029,Recovered,No,1,0,43338,36-60
+H2303,Oncology,46,Female,17,337962,Not Recovered,No,0,0,19880,36-60
+H2304,Orthopedics,50,Female,5,152103,Recovered,No,1,0,30421,36-60
+H2305,Neurology,59,Female,12,221665,Recovered,No,1,0,18472,36-60
+H2306,General Medicine,49,Female,2,55174,Recovered,No,1,0,27587,36-60
+H2307,Oncology,43,Female,13,200875,Recovered,No,1,0,15452,36-60
+H2308,Orthopedics,25,Male,2,140462,Recovered,No,1,0,70231,19-35
+H2309,Oncology,36,Male,13,343246,Recovered,No,1,0,26404,36-60
+H2310,General Medicine,51,Female,1,71112,Recovered,No,1,0,71112,36-60
+H2311,Cardiology,61,Male,4,253901,Recovered,No,1,0,63475,60+
+H2312,General Medicine,52,Male,4,62069,Recovered,No,1,0,15517,36-60
+H2313,General Medicine,33,Female,1,91720,Recovered,No,1,0,91720,19-35
+H2314,Oncology,36,Female,10,303572,Recovered,No,1,0,30357,36-60
+H2315,Cardiology,48,Female,7,137793,Recovered,Yes,1,1,19685,36-60
+H2316,Neurology,88,Female,4,160340,Recovered,No,1,0,40085,60+
+H2317,General Medicine,31,Male,2,63676,Recovered,No,1,0,31838,19-35
+H2318,General Medicine,31,Male,2,110920,Recovered,No,1,0,55460,19-35
+H2319,General Medicine,55,Female,1,55498,Not Recovered,No,0,0,55498,36-60
+H2320,Orthopedics,38,Female,7,129668,Recovered,No,1,0,18524,36-60
+H2321,Cardiology,11,Male,2,140006,Not Recovered,Yes,0,1,70003,0-18
+H2322,General Medicine,30,Female,5,81919,Recovered,Yes,1,1,16384,19-35
+H2323,Cardiology,62,Male,6,178184,Recovered,No,1,0,29697,60+
+H2324,Neurology,50,Female,9,210087,Recovered,No,1,0,23343,36-60
+H2325,General Medicine,87,Female,5,50618,Recovered,No,1,0,10124,60+
+H2326,Orthopedics,64,Female,5,146439,Recovered,No,1,0,29288,60+
+H2327,Cardiology,58,Male,4,209292,Recovered,No,1,0,52323,36-60
+H2328,Cardiology,71,Female,7,160685,Recovered,No,1,0,22955,60+
+H2329,Oncology,76,Female,12,371450,Not Recovered,No,0,0,30954,60+
+H2330,Cardiology,50,Female,5,162544,Recovered,No,1,0,32509,36-60
+H2331,General Medicine,83,Female,1,88381,Recovered,No,1,0,88381,60+
+H2332,General Medicine,30,Female,1,80126,Recovered,No,1,0,80126,19-35
+H2333,Oncology,68,Female,9,297103,Not Recovered,No,0,0,33011,60+
+H2334,Oncology,37,Female,15,371489,Not Recovered,No,0,0,24766,36-60
+H2335,Orthopedics,41,Male,6,122261,Recovered,No,1,0,20377,36-60
+H2336,General Medicine,40,Female,5,56621,Recovered,No,1,0,11324,36-60
+H2337,Neurology,20,Male,8,267033,Not Recovered,No,0,0,33379,19-35
+H2338,Neurology,49,Female,5,208160,Recovered,No,1,0,41632,36-60
+H2339,Cardiology,64,Female,5,190986,Recovered,No,1,0,38197,60+
+H2340,Oncology,25,Male,9,429728,Not Recovered,No,0,0,47748,19-35
+H2341,Oncology,59,Female,14,255072,Recovered,No,1,0,18219,36-60
+H2342,Oncology,67,Female,10,252145,Recovered,No,1,0,25214,60+
+H2343,Neurology,47,Female,4,208035.5,Recovered,No,1,0,52009,36-60
+H2344,Orthopedics,55,Female,6,159793,Recovered,No,1,0,26632,36-60
+H2345,Oncology,36,Male,10,236937,Recovered,No,1,0,23694,36-60
+H2346,Cardiology,35,Male,4,235129,Not Recovered,No,0,0,58782,19-35
+H2347,Cardiology,41,Female,2,247524,Not Recovered,No,0,0,123762,36-60
+H2348,Orthopedics,79,Female,3,93688,Recovered,No,1,0,31229,60+
+H2349,Orthopedics,50,Female,2,167785,Not Recovered,No,0,0,83892,36-60
+H2350,Neurology,41,Female,11,193876,Not Recovered,No,0,0,17625,36-60
+H2351,Cardiology,30,Female,5,251678,Recovered,No,1,0,50336,19-35
+H2352,General Medicine,37,Male,5,80483,Recovered,No,1,0,16097,36-60
+H2353,Orthopedics,41,Male,1,87990,Recovered,Yes,1,1,87990,36-60
+H2354,Orthopedics,51,Female,5,99318,Not Recovered,No,0,0,19864,36-60
+H2355,General Medicine,70,Female,5,71268,Not Recovered,Yes,0,1,14254,60+
+H2356,Cardiology,29,Male,9,205224,Recovered,No,1,0,22803,19-35
+H2357,Neurology,10,Female,9,318931,Not Recovered,No,0,0,35437,0-18
+H2358,Cardiology,82,Female,6,161084,Recovered,No,1,0,26847,60+
+H2359,Orthopedics,37,Male,9,159058,Recovered,No,1,0,17673,36-60
+H2360,Cardiology,47,Female,4,251279,Recovered,Yes,1,1,62820,36-60
+H2361,Oncology,24,Male,16,367069,Not Recovered,No,0,0,22942,19-35
+H2362,Orthopedics,53,Male,2,84728,Recovered,No,1,0,42364,36-60
+H2363,Neurology,37,Female,5,118566,Not Recovered,Yes,0,1,23713,36-60
+H2364,General Medicine,48,Male,5,96359,Not Recovered,No,0,0,19272,36-60
+H2365,Neurology,54,Male,11,68670,Not Recovered,No,0,0,6243,36-60
+H2366,Cardiology,58,Female,4,98731,Recovered,No,1,0,24683,36-60
+H2367,Oncology,56,Female,10,325349,Recovered,No,1,0,32535,36-60
+H2368,Neurology,40,Female,11,264807,Recovered,No,1,0,24073,36-60
+H2369,Oncology,74,Male,11,184965,Recovered,No,1,0,16815,60+
+H2370,Cardiology,91,Male,8,207625,Recovered,No,1,0,25953,60+
+H2371,General Medicine,62,Female,1,77706,Recovered,No,1,0,77706,60+
+H2372,Oncology,28,Female,12,332441,Not Recovered,No,0,0,27703,19-35
+H2373,General Medicine,61,Male,1,46414,Recovered,No,1,0,46414,60+
+H2374,Neurology,30,Male,8,228144,Recovered,No,1,0,28518,19-35
+H2375,Oncology,54,Male,13,501100,Recovered,No,1,0,38546,36-60
+H2376,Orthopedics,16,Female,4,138738,Recovered,Yes,1,1,34684,0-18
+H2377,Neurology,52,Male,9,199294,Recovered,No,1,0,22144,36-60
+H2378,Oncology,51,Male,10,346512,Recovered,No,1,0,34651,36-60
+H2379,Neurology,13,Male,13,217773,Not Recovered,No,0,0,16752,0-18
+H2380,General Medicine,36,Male,1,94297,Recovered,No,1,0,94297,36-60
+H2381,Orthopedics,51,Male,1,119457,Not Recovered,No,0,0,119457,36-60
+H2382,Orthopedics,74,Male,4,146714,Recovered,No,1,0,36678,60+
+H2383,Neurology,73,Male,5,178427,Recovered,No,1,0,35685,60+
+H2384,Orthopedics,62,Male,2,146215,Recovered,No,1,0,73108,60+
+H2385,Cardiology,6,Female,7,164629,Recovered,No,1,0,23518,0-18
+H2386,Orthopedics,46,Male,5,141563,Not Recovered,No,0,0,28313,36-60
+H2387,General Medicine,74,Female,5,24886,Recovered,No,1,0,4977,60+
+H2388,Oncology,47,Male,10,122532,Recovered,No,1,0,12253,36-60
+H2389,Cardiology,40,Female,7,203699,Recovered,No,1,0,29100,36-60
+H2390,Neurology,71,Female,5,220456,Not Recovered,No,0,0,44091,60+
+H2391,Neurology,35,Female,7,156399,Recovered,No,1,0,22343,19-35
+H2392,General Medicine,54,Female,4,103667,Recovered,No,1,0,25917,36-60
+H2393,General Medicine,39,Female,3,31761,Recovered,No,1,0,10587,36-60
+H2394,Neurology,43,Male,8,5000,Recovered,No,1,0,625,36-60
+H2395,Oncology,29,Female,13,301434,Recovered,Yes,1,1,23187,19-35
+H2396,General Medicine,45,Female,3,70914,Not Recovered,No,0,0,23638,36-60
+H2397,General Medicine,36,Female,2,83161,Recovered,No,1,0,41580,36-60
+H2398,Cardiology,71,Male,10,187821,Recovered,No,1,0,18782,60+
+H2399,Cardiology,52,Male,8,196110,Not Recovered,No,0,0,24514,36-60
+H2400,Neurology,15,Female,6,239939,Not Recovered,No,0,0,39990,0-18
+H2401,General Medicine,55,Female,1,62069,Recovered,No,1,0,62069,36-60
+H2402,Cardiology,84,Male,6,181020,Recovered,No,1,0,30170,60+
+H2403,Cardiology,73,Male,7,148573,Not Recovered,No,0,0,21225,60+
+H2404,Cardiology,85,Male,6,217549,Recovered,No,1,0,36258,60+
+H2405,Oncology,23,Female,9,204109,Not Recovered,No,0,0,22679,19-35
+H2406,Oncology,74,Male,9,334759,Not Recovered,No,0,0,37195,60+
+H2407,Orthopedics,65,Female,6,84463,Recovered,No,1,0,14077,60+
+H2408,Orthopedics,72,Male,3,178474,Recovered,No,1,0,59491,60+
+H2409,Orthopedics,44,Male,3,130068,Recovered,No,1,0,43356,36-60
+H2410,Oncology,72,Male,12,285369,Not Recovered,No,0,0,23781,60+
+H2411,General Medicine,46,Male,1,72317,Not Recovered,No,0,0,72317,36-60
+H2412,Oncology,59,Male,14,320803,Recovered,No,1,0,22914,36-60
+H2413,Cardiology,44,Male,2,234135,Recovered,No,1,0,117068,36-60
+H2414,General Medicine,50,Female,4,80103,Recovered,No,1,0,20026,36-60
+H2415,Neurology,64,Male,7,300856,Not Recovered,Yes,0,1,42979,60+
+H2416,Neurology,56,Female,12,254195,Recovered,No,1,0,21183,36-60
+H2417,Neurology,46,Male,8,260902,Recovered,No,1,0,32613,36-60
+H2418,Cardiology,35,Male,9,193004,Not Recovered,No,0,0,21445,19-35
+H2419,Oncology,58,Male,11,211861,Not Recovered,No,0,0,19260,36-60
+H2420,Oncology,18,Male,14,469685,Not Recovered,No,0,0,33549,0-18
+H2421,Orthopedics,24,Male,6,76849,Recovered,No,1,0,12808,19-35
+H2422,Oncology,84,Male,9,339540,Recovered,No,1,0,37727,60+
+H2423,Neurology,61,Male,10,260841,Not Recovered,No,0,0,26084,60+
+H2424,Neurology,62,Female,9,178778,Recovered,No,1,0,19864,60+
+H2425,Orthopedics,33,Male,2,128801,Recovered,Yes,1,1,64400,19-35
+H2426,Neurology,69,Male,8,164213,Recovered,No,1,0,20527,60+
+H2427,Oncology,78,Female,9,461322,Not Recovered,No,0,0,51258,60+
+H2428,Neurology,40,Female,6,109298,Not Recovered,No,0,0,18216,36-60
+H2429,Neurology,22,Male,5,197164,Recovered,Yes,1,1,39433,19-35
+H2430,Orthopedics,69,Female,7,70217,Not Recovered,No,0,0,10031,60+
+H2431,Cardiology,59,Male,6,262588,Recovered,No,1,0,43765,36-60
+H2432,Neurology,55,Female,12,309968,Not Recovered,No,0,0,25831,36-60
+H2433,Cardiology,45,Female,5,159083,Recovered,No,1,0,31817,36-60
+H2434,Cardiology,40,Female,4,216368,Recovered,No,1,0,54092,36-60
+H2435,General Medicine,70,Female,1,77516,Not Recovered,No,0,0,77516,60+
+H2436,General Medicine,54,Female,1,71625,Recovered,No,1,0,71625,36-60
+H2437,Neurology,64,Male,9,144716,Recovered,No,1,0,16080,60+
+H2438,General Medicine,59,Female,7,40156,Recovered,No,1,0,5737,36-60
+H2439,General Medicine,81,Male,3,40019,Recovered,No,1,0,13340,60+
+H2440,Neurology,57,Male,8,173638,Not Recovered,No,0,0,21705,36-60
+H2441,Cardiology,51,Female,6,174556,Recovered,Yes,1,1,29093,36-60
+H2442,General Medicine,17,Female,8,104838,Recovered,No,1,0,13105,0-18
+H2443,Oncology,48,Male,11,347496,Not Recovered,No,0,0,31591,36-60
+H2444,Oncology,33,Male,13,321999,Not Recovered,No,0,0,24769,19-35
+H2445,Oncology,72,Male,15,245096,Not Recovered,No,0,0,16340,60+
+H2446,Neurology,34,Male,9,266248,Recovered,No,1,0,29583,19-35
+H2447,General Medicine,55,Male,3,19529,Recovered,No,1,0,6510,36-60
+H2448,Cardiology,68,Male,8,209935,Recovered,Yes,1,1,26242,60+
+H2449,Orthopedics,50,Male,6,132685,Recovered,Yes,1,1,22114,36-60
+H2450,General Medicine,71,Female,4,54335,Recovered,No,1,0,13584,60+
+H2451,General Medicine,51,Female,3,81750,Recovered,No,1,0,27250,36-60
+H2452,Neurology,76,Female,6,281763,Not Recovered,No,0,0,46960,60+
+H2453,Orthopedics,59,Female,4,73251,Recovered,No,1,0,18313,36-60
+H2454,Orthopedics,34,Male,5,170587,Not Recovered,No,0,0,34117,19-35
+H2455,Orthopedics,3,Male,4,110161,Recovered,No,1,0,27540,0-18
+H2456,Orthopedics,95,Male,7,115345,Recovered,No,1,0,16478,60+
+H2457,Neurology,53,Female,11,231427,Recovered,No,1,0,21039,36-60
+H2458,Orthopedics,95,Male,5,64378,Recovered,No,1,0,12876,60+
+H2459,Orthopedics,35,Female,4,112656,Recovered,No,1,0,28164,19-35
+H2460,Neurology,43,Male,11,283521,Recovered,No,1,0,25775,36-60
+H2461,Neurology,49,Male,8,174326,Recovered,No,1,0,21791,36-60
+H2462,Neurology,50,Female,10,147853,Recovered,No,1,0,14785,36-60
+H2463,Orthopedics,38,Female,2,160699,Not Recovered,No,0,0,80350,36-60
+H2464,General Medicine,47,Female,6,16372,Recovered,No,1,0,2729,36-60
+H2465,General Medicine,28,Male,2,54433,Recovered,No,1,0,27216,19-35
+H2466,Oncology,47,Male,15,279448,Not Recovered,No,0,0,18630,36-60
+H2467,Neurology,50,Female,13,163923,Not Recovered,No,0,0,12609,36-60
+H2468,General Medicine,74,Female,7,49047,Recovered,No,1,0,7007,60+
+H2469,General Medicine,54,Female,2,50447,Recovered,Yes,1,1,25224,36-60
+H2470,Oncology,14,Male,12,306551,Recovered,Yes,1,1,25546,0-18
+H2471,Orthopedics,55,Female,4,43854,Recovered,No,1,0,10964,36-60
+H2472,Cardiology,63,Male,8,217780,Recovered,No,1,0,27222,60+
+H2473,Cardiology,49,Female,9,176096,Recovered,No,1,0,19566,36-60
+H2474,Neurology,50,Female,9,174959,Recovered,No,1,0,19440,36-60
+H2475,General Medicine,71,Female,4,41120,Recovered,No,1,0,10280,60+
+H2476,Neurology,62,Female,7,181181,Recovered,No,1,0,25883,60+
+H2477,Oncology,61,Female,6,163638,Recovered,No,1,0,27273,60+
+H2478,Orthopedics,34,Female,6,127533,Recovered,No,1,0,21256,19-35
+H2479,Oncology,41,Male,11,367118,Not Recovered,Yes,0,1,33374,36-60
+H2480,Cardiology,41,Male,6,155369,Recovered,No,1,0,25895,36-60
+H2481,Oncology,95,Male,13,296138,Not Recovered,No,0,0,22780,60+
+H2482,General Medicine,66,Male,4,67900,Recovered,No,1,0,16975,60+
+H2483,General Medicine,41,Female,5,60008,Recovered,No,1,0,12002,36-60
+H2484,Neurology,74,Female,7,208035.5,Recovered,No,1,0,29719,60+
+H2485,Cardiology,7,Male,4,167918,Not Recovered,No,0,0,41980,0-18
+H2486,Oncology,33,Male,15,297607,Recovered,No,1,0,19840,19-35
+H2487,Cardiology,31,Female,9,216496,Recovered,No,1,0,24055,19-35
+H2488,Orthopedics,52,Female,3,150311,Recovered,No,1,0,50104,36-60
+H2489,General Medicine,61,Female,4,88425,Recovered,No,1,0,22106,60+
+H2490,Oncology,38,Male,10,206968,Not Recovered,No,0,0,20697,36-60
+H2491,Neurology,47,Male,9,255148,Not Recovered,No,0,0,28350,36-60
+H2492,General Medicine,40,Male,1,51625,Recovered,No,1,0,51625,36-60
+H2493,Oncology,64,Female,17,126578,Recovered,Yes,1,1,7446,60+
+H2494,Cardiology,46,Female,7,107470,Recovered,No,1,0,15353,36-60
+H2495,Orthopedics,41,Male,6,137543,Recovered,No,1,0,22924,36-60
+H2496,Oncology,95,Female,11,433212,Recovered,No,1,0,39383,60+
+H2497,Orthopedics,70,Male,4,103527,Recovered,No,1,0,25882,60+
+H2498,General Medicine,59,Female,2,77302,Recovered,No,1,0,38651,36-60
+H2499,Cardiology,49,Male,7,229872,Not Recovered,No,0,0,32839,36-60
+H2500,Neurology,44,Female,8,207311,Recovered,No,1,0,25914,36-60
+H2501,Oncology,39,Male,11,408004,Recovered,Yes,1,1,37091,36-60
+H2502,General Medicine,51,Female,1,72611,Not Recovered,No,0,0,72611,36-60
+H2503,Oncology,42,Male,15,292211,Not Recovered,No,0,0,19481,36-60
+H2504,Orthopedics,50,Male,2,75307,Recovered,No,1,0,37654,36-60
+H2505,General Medicine,67,Male,3,57604,Recovered,No,1,0,19201,60+
+H2506,General Medicine,47,Female,6,65067,Recovered,No,1,0,10844,36-60
+H2507,Neurology,40,Male,8,145570,Not Recovered,No,0,0,18196,36-60
+H2508,General Medicine,25,Male,3,78155,Not Recovered,No,0,0,26052,19-35
+H2509,Oncology,28,Female,8,297607,Recovered,No,1,0,37201,19-35
+H2510,Oncology,5,Male,10,302490,Recovered,No,1,0,30249,0-18
+H2511,Orthopedics,60,Male,5,111487,Not Recovered,No,0,0,22297,36-60
+H2512,Oncology,1,Female,15,297607,Recovered,No,1,0,19840,0-18
+H2513,Neurology,41,Male,11,207911,Recovered,No,1,0,18901,36-60
+H2514,Orthopedics,64,Female,3,109753,Recovered,Yes,1,1,36584,60+
+H2515,General Medicine,49,Female,4,57813,Recovered,No,1,0,14453,36-60
+H2516,Oncology,66,Female,6,547360,Not Recovered,No,0,0,91227,60+
+H2517,Cardiology,41,Male,4,172072,Recovered,No,1,0,43018,36-60
+H2518,Oncology,43,Male,8,233204,Not Recovered,No,0,0,29150,36-60
+H2519,Oncology,90,Male,10,264280,Recovered,No,1,0,26428,60+
+H2520,Orthopedics,28,Female,4,101407,Recovered,No,1,0,25352,19-35
+H2521,Neurology,15,Female,9,251921,Not Recovered,No,0,0,27991,0-18
+H2522,Neurology,17,Male,7,196847,Not Recovered,No,0,0,28121,0-18
+H2523,General Medicine,8,Female,3,59985,Recovered,No,1,0,19995,0-18
+H2524,General Medicine,54,Male,4,51025,Recovered,No,1,0,12756,36-60
+H2525,Cardiology,48,Male,8,201024,Recovered,No,1,0,25128,36-60
+H2526,Orthopedics,38,Female,2,143415,Not Recovered,Yes,0,1,71708,36-60
+H2527,General Medicine,32,Female,9,65917,Recovered,No,1,0,7324,19-35
+H2528,Neurology,43,Female,8,180974,Not Recovered,Yes,0,1,22622,36-60
+H2529,Orthopedics,39,Male,2,122606,Recovered,No,1,0,61303,36-60
+H2530,Oncology,53,Male,10,422631,Recovered,No,1,0,42263,36-60
+H2531,Orthopedics,34,Female,6,98263,Recovered,No,1,0,16377,19-35
+H2532,Oncology,61,Male,13,445532,Not Recovered,No,0,0,34272,60+
+H2533,Oncology,67,Female,12,353800,Not Recovered,No,0,0,29483,60+
+H2534,Oncology,37,Male,11,412150,Recovered,Yes,1,1,37468,36-60
+H2535,Oncology,51,Male,12,243481,Recovered,No,1,0,20290,36-60
+H2536,Oncology,27,Female,14,369817,Not Recovered,No,0,0,26416,19-35
+H2537,Oncology,60,Male,9,357677,Not Recovered,No,0,0,39742,36-60
+H2538,Neurology,66,Female,8,279759,Recovered,No,1,0,34970,60+
+H2539,Oncology,45,Male,14,363563,Recovered,No,1,0,25969,36-60
+H2540,Cardiology,68,Male,9,343001,Recovered,No,1,0,38111,60+
+H2541,Oncology,47,Female,11,203859,Recovered,Yes,1,1,18533,36-60
+H2542,Cardiology,62,Female,3,208693,Recovered,No,1,0,69564,60+
+H2543,General Medicine,50,Female,2,50586,Recovered,No,1,0,25293,36-60
+H2544,Oncology,48,Female,13,279179,Recovered,No,1,0,21475,36-60
+H2545,Oncology,49,Female,10,262237,Recovered,No,1,0,26224,36-60
+H2546,Oncology,13,Male,11,297607,Not Recovered,Yes,0,1,27055,0-18
+H2547,General Medicine,63,Male,7,71192,Recovered,No,1,0,10170,60+
+H2548,Cardiology,83,Male,6,215390,Recovered,No,1,0,35898,60+
+H2549,Neurology,51,Female,10,156098,Recovered,No,1,0,15610,36-60
+H2550,Oncology,1,Female,12,197979,Recovered,No,1,0,16498,0-18
+H2551,General Medicine,47,Male,4,56266,Recovered,No,1,0,14066,36-60
+H2552,Orthopedics,49,Male,7,113465,Recovered,No,1,0,16209,36-60
+H2553,Cardiology,65,Male,4,186649,Not Recovered,No,0,0,46662,60+
+H2554,General Medicine,42,Female,2,58489,Recovered,No,1,0,29244,36-60
+H2555,Orthopedics,31,Male,1,119783,Recovered,No,1,0,119783,19-35
+H2556,Oncology,35,Female,11,284993,Recovered,Yes,1,1,25908,19-35
+H2557,Oncology,54,Male,10,387586,Recovered,No,1,0,38759,36-60
+H2558,Orthopedics,34,Female,4,131558,Recovered,No,1,0,32890,19-35
+H2559,Cardiology,57,Male,9,222496,Not Recovered,No,0,0,24722,36-60
+H2560,Orthopedics,73,Male,5,122606,Recovered,No,1,0,24521,60+
+H2561,Orthopedics,54,Female,2,142864,Recovered,No,1,0,71432,36-60
+H2562,Neurology,53,Female,9,117861,Recovered,No,1,0,13096,36-60
+H2563,Cardiology,24,Female,8,159224,Recovered,No,1,0,19903,19-35
+H2564,General Medicine,40,Male,3,52476,Not Recovered,No,0,0,17492,36-60
+H2565,Neurology,27,Male,10,214026,Recovered,No,1,0,21403,19-35
+H2566,Cardiology,40,Male,9,147942,Not Recovered,No,0,0,16438,36-60
+H2567,Neurology,21,Female,6,148286,Recovered,No,1,0,24714,19-35
+H2568,Cardiology,44,Male,11,227313,Recovered,No,1,0,20665,36-60
+H2569,General Medicine,68,Female,1,65513,Recovered,No,1,0,65513,60+
+H2570,Orthopedics,71,Male,3,128764,Recovered,No,1,0,42921,60+
+H2571,Cardiology,85,Male,9,160239,Recovered,No,1,0,17804,60+
+H2572,Oncology,52,Male,8,236893,Not Recovered,No,0,0,29612,36-60
+H2573,General Medicine,60,Female,1,74779,Recovered,No,1,0,74779,36-60
+H2574,Cardiology,44,Female,5,219360,Recovered,No,1,0,43872,36-60
+H2575,Oncology,59,Female,15,131431,Not Recovered,No,0,0,8762,36-60
+H2576,General Medicine,41,Female,1,61461,Recovered,No,1,0,61461,36-60
+H2577,Orthopedics,46,Male,3,130216,Recovered,No,1,0,43405,36-60
+H2578,Orthopedics,61,Female,10,130211,Recovered,No,1,0,13021,60+
+H2579,Orthopedics,28,Female,5,107697,Recovered,No,1,0,21539,19-35
+H2580,Cardiology,48,Female,3,169926,Recovered,No,1,0,56642,36-60
+H2581,Oncology,36,Male,14,293803,Not Recovered,No,0,0,20986,36-60
+H2582,Cardiology,75,Female,9,198880,Recovered,No,1,0,22098,60+
+H2583,Oncology,49,Male,11,148460,Recovered,No,1,0,13496,36-60
+H2584,General Medicine,52,Female,2,38951,Recovered,No,1,0,19476,36-60
+H2585,Neurology,69,Female,5,263205,Not Recovered,No,0,0,52641,60+
+H2586,Neurology,73,Male,12,253149,Recovered,No,1,0,21096,60+
+H2587,General Medicine,35,Female,1,42138,Recovered,Yes,1,1,42138,19-35
+H2588,Oncology,63,Female,14,265652,Not Recovered,Yes,0,1,18975,60+
+H2589,Cardiology,49,Male,9,195459,Recovered,No,1,0,21718,36-60
+H2590,Orthopedics,24,Female,2,89439,Recovered,Yes,1,1,44720,19-35
+H2591,Neurology,55,Male,9,324966,Recovered,Yes,1,1,36107,36-60
+H2592,Oncology,50,Female,11,202131,Not Recovered,Yes,0,1,18376,36-60
+H2593,Cardiology,80,Female,9,203405,Recovered,No,1,0,22601,60+
+H2594,Cardiology,43,Female,4,248391,Recovered,Yes,1,1,62098,36-60
+H2595,General Medicine,44,Male,5,47842,Not Recovered,No,0,0,9568,36-60
+H2596,Neurology,25,Female,9,201489,Not Recovered,No,0,0,22388,19-35
+H2597,Neurology,43,Female,7,192128,Not Recovered,No,0,0,27447,36-60
+H2598,Cardiology,48,Male,5,197169,Recovered,No,1,0,39434,36-60
+H2599,General Medicine,65,Female,5,53104,Recovered,No,1,0,10621,60+
+H2600,Orthopedics,70,Male,3,146791,Recovered,No,1,0,48930,60+
+H2601,Oncology,65,Male,15,245131,Recovered,No,1,0,16342,60+
+H2602,Orthopedics,67,Male,5,186136,Recovered,No,1,0,37227,60+
+H2603,General Medicine,66,Female,2,57543,Recovered,No,1,0,28772,60+
+H2604,Cardiology,77,Female,7,138314,Recovered,No,1,0,19759,60+
+H2605,Oncology,62,Male,12,345972,Recovered,No,1,0,28831,60+
+H2606,Orthopedics,80,Male,8,147030,Not Recovered,No,0,0,18379,60+
+H2607,Neurology,57,Male,10,262607,Recovered,No,1,0,26261,36-60
+H2608,Oncology,53,Male,12,297607,Recovered,No,1,0,24801,36-60
+H2609,Cardiology,59,Female,1,231120,Recovered,No,1,0,231120,36-60
+H2610,General Medicine,32,Male,1,51700,Not Recovered,No,0,0,51700,19-35
+H2611,Orthopedics,19,Male,4,145540,Recovered,No,1,0,36385,19-35
+H2612,Oncology,34,Male,15,252427,Recovered,No,1,0,16828,19-35
+H2613,Oncology,83,Female,6,179177,Recovered,No,1,0,29863,60+
+H2614,Orthopedics,32,Female,3,120369,Recovered,No,1,0,40123,19-35
+H2615,General Medicine,32,Male,4,53726,Recovered,No,1,0,13432,19-35
+H2616,Oncology,37,Male,11,239532,Not Recovered,No,0,0,21776,36-60
+H2617,Orthopedics,59,Female,6,129576,Recovered,No,1,0,21596,36-60
+H2618,Orthopedics,57,Female,7,112931,Recovered,No,1,0,16133,36-60
+H2619,Oncology,72,Female,10,365220,Recovered,No,1,0,36522,60+
