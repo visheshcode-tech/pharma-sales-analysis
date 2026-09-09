@@ -1,0 +1,566 @@
+Sale_ID,Medicine_Name,Category,Region,City,Quantity_Sold,Unit_Price,Sale_Date,Sales_Rep,Discount_Percent
+1,ranitidine,gastro,South,Bangalore,-5,100,5/12/2026,ROHIT VERMA,5
+2,amoxicillin,Antibiotic,South,Kolkata,30,,12/5/2026,Karan Mehta ,0
+3,Omeprazole,Gastro,South,Kolkata,,8,8/19/2026,Rohit Verma ,10
+4,cetirizine,antihistamine,West ,Jaipur,-5,8,1/28/2026,sneha gupta,15
+5,Glimepiride,Diabetes, East,Jaipur,50,10.5,5/25/2026,divya rao,5
+6, Omeprazole,Gastro,south,Chennai,,75,7/15/2026,karan mehta,5
+7,Diclofenac,Painkiller,NORTH,Pune,150,20,4/26/2026,Aman Kumar ,10
+8,Omeprazole ,Gastro,North ,Mumbai,50,50,3/17/2026,Priya Sharma,15
+9,Omeprazole ,Gastro,NORTH,Chennai,500,,3/5/2026,aman kumar,5
+10,Paracetamol,Painkiller,South,Bangalore,50,10.5,5/23/2026,,0
+11,Omeprazole ,GASTRO,south,,,45,4/1/2026,PRIYA SHARMA,10
+12,PANTOPRAZOLE,Gastro,South,Pune,200,15,6/7/2026,Karan Mehta,
+13,Loratadine,Antihistamine,EAST,Bangalore,,120,8/26/2026,divya rao,5
+14,Atorvastatin, Cholesterol,west,Delhi,50,5,8/21/2026,aman kumar,0
+15, Multivitamin,SUPPLEMENT,NORTH,Delhi,,20,5/21/2026,,5
+16,Azithromycin, Antibiotic,West,Jaipur,50,150,1/10/2026,priya sharma,5
+17, Diclofenac,Painkiller,North ,Hyderabad,10,60,7/22/2026,Divya Rao,5
+18,azithromycin,Antibiotic ,SOUTH ,Hyderabad,10,15,3/20/2026,AMAN KUMAR,15
+19,metformin,diabetes,south,Chennai,-15,8,1/26/2026,AMAN KUMAR,0
+20,DICLOFENAC,painkiller,North,Kolkata,20,5,8/22/2026,ROHIT VERMA,0
+21,LOSARTAN,Bp,south,Chennai,75,10.5,3/3/2026,sneha gupta,0
+22, Glimepiride,Diabetes,South,Bangalore,50,30.5,21/02/2026,Karan Mehta ,0
+23,Losartan,BP,West,Chennai,100,20,3/8/2026,sneha gupta,5
+24,Azithromycin,Antibiotic,NORTH,Jaipur,200,150,2/28/2026,Sneha Gupta,10
+25,Omeprazole,Gastro ,NORTH,Jaipur,20,150,8/9/2026,Priya Sharma,20
+26,glimepiride,diabetes, East,Chennai,20,100,7/6/2026,Sneha Gupta,
+27,IBUPROFEN,painkiller, East,,20,150,6/26/2026,Karan Mehta ,0
+28,Azithromycin,Antibiotic,North ,Delhi,30,15,22/08/2026,SNEHA GUPTA,5
+29,Insulin,Diabetes,north,Hyderabad,10,150,8/17/2026,Sneha Gupta,5
+30,Amlodipine,Bp,west,Hyderabad,250,100,15/05/2026,rohit verma,0
+31,METFORMIN, Diabetes,North,Pune,300,30.5,3/21/2026,Rohit Verma ,15
+32, Omeprazole,Gastro,south,Chennai,,75,7/15/2026,karan mehta,5
+33,GLIMEPIRIDE, Diabetes,east,Hyderabad,10,50,8/4/2026,rohit verma,0
+34, Losartan,Gastro,west,Kolkata,30,,8/9/2026,priya sharma,
+35, Atorvastatin,CHOLESTEROL,East,Jaipur,-5,25,8/8/2026,KARAN MEHTA,
+36,Paracetamol,Painkiller,South,Jaipur,30,8,3/7/2026,divya rao,15
+37,INSULIN,DIABETES,East,Chennai,150,8,3/15/2026,DIVYA RAO,10
+38,ciprofloxacin,Antibiotic ,EAST,Bangalore,100,10.5,4/12/2026,KARAN MEHTA,20
+39,PANTOPRAZOLE,Gastro,North,Pune,250,45,4/15/2026,DIVYA RAO,15
+40,Insulin,Diabetes,North ,Pune,,25,1/15/2026,divya rao,5
+41,Insulin,Diabetes ,EAST,Bangalore,,50,4/3/2026,PRIYA SHARMA,10
+42,MULTIVITAMIN,supplement,east,Mumbai,30,100,8/18/2026,sneha gupta,5
+43,Losartan ,BP ,East,Kolkata,150,100,1/17/2026,AMAN KUMAR,
+44, Omeprazole,Gastro,West,,,100,7/27/2026,ROHIT VERMA,10
+45,amlodipine,bp,EAST,Mumbai,30,25,6/3/2026,,
+46,Multivitamin,Supplement ,West ,,-15,75,8/6/2026,Aman Kumar ,10
+47,Ciprofloxacin,Antibiotic,West,Chennai,50,20,5/14/2026,karan mehta,5
+48,Azithromycin,antibiotic,NORTH,Hyderabad,30,25,5/27/2026,ROHIT VERMA,20
+49,Amlodipine,bp,South,Pune,250,,8/18/2026,ROHIT VERMA,5
+50,RANITIDINE,Gastro ,WEST,Mumbai,150,30.5,3/13/2026,Divya Rao ,5
+51,Ciprofloxacin, Antibiotic,North ,Kolkata,300,75,2/8/2026,Priya Sharma,0
+52,METFORMIN,BP,EAST,Bangalore,20,8,10/2/2026,Divya Rao ,
+53,Paracetamol,painkiller,South,Pune,250,60,7/27/2026,Karan Mehta ,
+54,AMLODIPINE,BP,east,Chennai,150,20,8/4/2026,ROHIT VERMA,
+55,ranitidine,gastro,east,Bangalore,150,25,1/27/2026,Aman Kumar ,
+56,Omeprazole,Gastro,SOUTH ,Mumbai,-5,120,20/05/2026,Aman Kumar ,10
+57,Loratadine,antihistamine,East,Delhi,200,100,1/7/2026,DIVYA RAO,15
+58,Aspirin ,Painkiller,West,Pune,20,10.5,3/12/2026,Aman Kumar ,10
+59,Cetirizine ,Antihistamine,NORTH,Hyderabad,-5,120,4/28/2026,Priya Sharma,
+60,Cetirizine,Antihistamine,South,Delhi,20,120,6/24/2026,Priya Sharma ,
+61,CETIRIZINE,ANTIHISTAMINE,West,Chennai,200,30.5,3/15/2026,Priya Sharma,0
+62,DICLOFENAC,Painkiller,EAST,Mumbai,250,,5/5/2026,Aman Kumar ,15
+63,PANTOPRAZOLE,GASTRO, East,Jaipur,300,120,1/5/2026,Priya Sharma ,5
+64,PARACETAMOL,Painkiller,WEST,Bangalore,200,45,8/28/2026,Aman Kumar,5
+65,Losartan,BP,South,Chennai,75,120,2/7/2026,ROHIT VERMA,0
+66,Losartan,BP,East,Mumbai,50,75,2/2/2026,Priya Sharma ,
+67,Vitamin C,Supplement,WEST,Bangalore,200,5,5/6/2026,AMAN KUMAR,5
+68,METFORMIN,Diabetes,West ,Hyderabad,20,100,8/21/2026,AMAN KUMAR,0
+69,glimepiride, Diabetes,NORTH,Chennai,300,50,8/16/2026,Priya Sharma,15
+70,azithromycin,Antibiotic,South,Bangalore,300,150,8/22/2026,,
+71,Loratadine,Antihistamine ,North,Hyderabad,,30.5,8/16/2026,Rohit Verma ,5
+72, Atorvastatin,CHOLESTEROL,East,Jaipur,-5,25,8/8/2026,KARAN MEHTA,
+73, Insulin,Diabetes ,west,Kolkata,30,10.5,1/4/2026,,0
+74,AZITHROMYCIN,ANTIBIOTIC, East,Kolkata,500,20,3/8/2026,Rohit Verma,10
+75,Insulin,DIABETES,west,Jaipur,10,120,5/12/2026,Rohit Verma ,
+76,Amoxicillin,Antibiotic, East,Mumbai,20,10.5,25/06/2026,Priya Sharma ,
+77, Insulin,Diabetes,North ,Chennai,50,25,2/11/2026,Karan Mehta ,15
+78,Paracetamol ,Antibiotic,EAST,Jaipur,50,60,4/10/2026,Divya Rao ,10
+79,Pantoprazole,gastro, East,Chennai,10,100,6/22/2026,Sneha Gupta ,10
+80,atorvastatin,DIABETES,East,Bangalore,-5,,7/21/2026,Divya Rao ,5
+81,cetirizine,antihistamine,NORTH,Chennai,50,20,7/18/2026,priya sharma,5
+82,Loratadine , Antihistamine,South,Delhi,-5,120,1/24/2026,Karan Mehta ,10
+83,Insulin,Gastro,WEST,Chennai,-15,30.5,5/13/2026,KARAN MEHTA,15
+84,Ciprofloxacin,Antibiotic, East,Jaipur,50,10.5,2/1/2026,AMAN KUMAR,0
+85, Ibuprofen,Painkiller, East,Hyderabad,500,5,4/5/2026,Divya Rao ,10
+86,metformin,Diabetes,West ,Kolkata,20,75,3/20/2026,Rohit Verma,0
+87,Diclofenac,Painkiller,East,Delhi,-5,,2/12/2026,PRIYA SHARMA,10
+88,Azithromycin,ANTIBIOTIC,West,Mumbai,10,30.5,8/17/2026,,0
+89,diclofenac, Painkiller,West ,Bangalore,-15,15,6/24/2026,SNEHA GUPTA,5
+90, Insulin, Diabetes,North ,Bangalore,-15,60,5/21/2026,Rohit Verma,
+91,ASPIRIN, Painkiller,West,,150,,3/22/2026,Priya Sharma ,
+92, Loratadine,Antihistamine ,SOUTH ,Pune,250,,4/14/2026,Divya Rao,
+93,Cetirizine , Antihistamine,WEST,Delhi,300,150,8/5/2026,SNEHA GUPTA,
+94,PARACETAMOL,PAINKILLER,SOUTH ,Jaipur,20,25,8/16/2026,Karan Mehta,5
+95,omeprazole,Gastro ,west,Mumbai,-15,25,1/3/2026,AMAN KUMAR,5
+96,Glimepiride ,DIABETES,West ,Bangalore,200,10.5,1/26/2026,rohit verma,10
+97,LOSARTAN,BP , East,,,8,3/21/2026,,
+98,Ibuprofen , Painkiller,West,Mumbai,50,,7/19/2026,,5
+99,Atorvastatin , Cholesterol,West,Pune,-5,,4/1/2026,divya rao,0
+100,Glimepiride,Diabetes ,North,Jaipur,20,45,4/10/2026,Rohit Verma ,20
+101,cetirizine,Antihistamine ,SOUTH ,Pune,300,120,16/06/2026,Sneha Gupta ,10
+102,MULTIVITAMIN,Supplement ,west,Chennai,-5,,1/4/2026,Aman Kumar,
+103,Aspirin,Painkiller ,north,,20,25,2/15/2026,aman kumar,15
+104,VITAMIN C,supplement,south,Chennai,75,5,11/4/2026,Priya Sharma,10
+105, Ciprofloxacin,antibiotic,East,Chennai,150,45,6/23/2026,DIVYA RAO,5
+106,paracetamol,PAINKILLER,EAST,Bangalore,150,5,6/1/2026,Divya Rao,0
+107,Diclofenac ,Painkiller,NORTH,Delhi,,,4/21/2026,Karan Mehta,15
+108,IBUPROFEN,painkiller, East,Delhi,200,,8/19/2026,Karan Mehta ,
+109,Losartan,Bp,south,,300,120,1/27/2026,Karan Mehta ,20
+110, Cetirizine,Antihistamine , East,Hyderabad,-5,100,6/9/2026,Divya Rao,5
+111,Metformin,Diabetes,West ,Jaipur,150,60,5/6/2026,Priya Sharma ,20
+112,Pantoprazole,Antihistamine,WEST,Jaipur,30,,2/9/2026,sneha gupta,0
+113,diclofenac,Painkiller ,South,Hyderabad,30,50,3/25/2026,Karan Mehta ,10
+114,AZITHROMYCIN,Antibiotic,NORTH,Delhi,50,25,6/24/2026,Karan Mehta ,20
+115,LOSARTAN,BP,WEST,Kolkata,300,8,8/18/2026,AMAN KUMAR,15
+116,loratadine,antihistamine,West ,Jaipur,75,60,6/4/2026,Karan Mehta ,10
+117,IBUPROFEN,PAINKILLER,north,Bangalore,200,20,4/19/2026,Aman Kumar,5
+118,METFORMIN,Diabetes,west,Jaipur,75,120,5/20/2026,Priya Sharma ,
+119,diclofenac,Painkiller ,South,Hyderabad,30,50,3/25/2026,Karan Mehta ,10
+120,Diclofenac,PAINKILLER,West,Hyderabad,-15,60,6/14/2026,rohit verma,0
+121, Amoxicillin,Antibiotic,EAST,Pune,20,8,10/6/2026,Karan Mehta,10
+122,Ciprofloxacin,Antibiotic,WEST,Bangalore,-5,45,1/2/2026,karan mehta,20
+123,Azithromycin,Antibiotic,South,Chennai,20,75,5/27/2026,priya sharma,5
+124,DICLOFENAC,Painkiller,east,Jaipur,75,15,4/26/2026,KARAN MEHTA,5
+125,ATORVASTATIN,Supplement,South,Mumbai,100,25,8/16/2026,Priya Sharma,
+126,Metformin,Diabetes,North ,Chennai,200,120,8/26/2026,Priya Sharma ,0
+127, Insulin, Diabetes,south,Kolkata,300,8,3/6/2026,,20
+128, Pantoprazole,GASTRO,West ,Hyderabad,10,15,6/8/2026,KARAN MEHTA,10
+129, Insulin,Bp,South,Pune,20,75,20/06/2026,KARAN MEHTA,20
+130,Cetirizine ,antihistamine,West,Bangalore,50,75,3/21/2026,Karan Mehta,0
+131,Amoxicillin, Antibiotic,South,Kolkata,500,75,5/24/2026,Karan Mehta,10
+132,Ciprofloxacin,Antibiotic ,EAST,Delhi,,120,4/20/2026,ROHIT VERMA,20
+133,atorvastatin,cholesterol,South,Pune,-15,50,4/5/2026,Sneha Gupta ,0
+134, Losartan, BP,north,Chennai,-15,5,3/18/2026,Karan Mehta,15
+135,CIPROFLOXACIN,Antibiotic, East,Mumbai,75,20,12/1/2026,aman kumar,15
+136,VITAMIN C,supplement,West,Kolkata,50,30.5,8/1/2026,DIVYA RAO,5
+137, Vitamin C,supplement,south,Delhi,200,8,26/04/2026,AMAN KUMAR,
+138,CIPROFLOXACIN, Antibiotic,EAST,Delhi,300,100,6/27/2026,Divya Rao ,0
+139,Insulin,Diabetes ,NORTH,Pune,250,,6/27/2026,Priya Sharma ,0
+140,Paracetamol,PAINKILLER,NORTH,Chennai,,10.5,2/2/2026,Karan Mehta ,5
+141,Atorvastatin , Cholesterol,north,Hyderabad,100,75,5/18/2026,Aman Kumar ,10
+142,amlodipine,bp,South,Delhi,30,20,2/18/2026,Sneha Gupta,5
+143,Ranitidine ,GASTRO,north,Mumbai,300,20,1/19/2026,Divya Rao ,10
+144, Omeprazole,gastro,west,Delhi,20,75,6/14/2026,Aman Kumar ,5
+145,AMOXICILLIN,Antibiotic ,west,Bangalore,250,50,1/28/2026,Priya Sharma,5
+146,Amlodipine ,Bp,NORTH,Delhi,500,120,6/14/2026,PRIYA SHARMA,
+147,Atorvastatin ,cholesterol,north,Chennai,10,120,8/6/2026,Priya Sharma ,5
+148,Multivitamin,Supplement,SOUTH ,Chennai,100,30.5,5/1/2026,Rohit Verma,10
+149,pantoprazole,GASTRO,West,Bangalore,300,100,5/10/2026,karan mehta,10
+150, Metformin,Diabetes,West ,Pune,250,,2/19/2026,rohit verma,15
+151,Aspirin,Painkiller ,South,Pune,20,15,4/4/2026,Aman Kumar ,5
+152,omeprazole,GASTRO,East,Jaipur,300,10.5,4/16/2026,Divya Rao,15
+153, Atorvastatin,cholesterol,EAST,Delhi,200,120,2/21/2026,rohit verma,0
+154, Aspirin,Painkiller ,South,Mumbai,150,75,7/26/2026,ROHIT VERMA,
+155,VITAMIN C, Supplement,South,Kolkata,,25,8/17/2026,Aman Kumar,5
+156,LORATADINE,antihistamine,east,Mumbai,100,30.5,2/16/2026,divya rao,0
+157,Diclofenac ,Painkiller,North ,Chennai,200,120,5/3/2026,karan mehta,0
+158,RANITIDINE,Gastro,WEST,Bangalore,,100,7/20/2026,Divya Rao,20
+159, Ciprofloxacin,Antibiotic,South,Pune,10,45,7/27/2026,ROHIT VERMA,
+160,INSULIN,diabetes,south,Delhi,50,20,3/18/2026,priya sharma,15
+161,Aspirin,Painkiller,South,Delhi,50,30.5,2/18/2026,Rohit Verma ,10
+162,Atorvastatin,CHOLESTEROL,South,Chennai,100,100,7/19/2026,karan mehta,
+163,ASPIRIN,Painkiller ,north,Delhi,50,45,6/15/2026,,
+164,Insulin,Diabetes ,NORTH,Jaipur,100,,4/14/2026,SNEHA GUPTA,
+165,Ibuprofen,Painkiller ,South,Bangalore,150,120,6/3/2026,DIVYA RAO,0
+166,insulin, Diabetes,West,Delhi,-5,5,6/23/2026,Priya Sharma ,5
+167,insulin,DIABETES,NORTH,Delhi,100,5,2/4/2026,,5
+168,diclofenac,Painkiller ,north,Chennai,100,15,1/6/2026,Rohit Verma ,
+169,Ranitidine,Gastro ,North ,Jaipur,10,60,6/22/2026,Priya Sharma,5
+170,Aspirin,Bp,South,Hyderabad,20,100,3/14/2026,aman kumar,10
+171, Pantoprazole,Gastro,west,Mumbai,150,100,4/3/2026,SNEHA GUPTA,20
+172,pantoprazole,Gastro,NORTH,Bangalore,10,20,5/3/2026,Priya Sharma,10
+173,Losartan,bp,South,Bangalore,20,60,8/26/2026,karan mehta,10
+174,Aspirin,Cholesterol ,north,Delhi,20,5,4/9/2026,AMAN KUMAR,5
+175,metformin, Diabetes,EAST,Mumbai,250,20,8/2/2026,Priya Sharma,
+176,Loratadine, Antihistamine,West ,Bangalore,10,15,7/21/2026,Aman Kumar ,20
+177,Metformin,Diabetes ,WEST,Delhi,500,25,2/4/2026,Rohit Verma,20
+178, Insulin,DIABETES,South,Hyderabad,500,10.5,3/12/2026,sneha gupta,
+179,amoxicillin,Antibiotic ,west,Bangalore,-5,50,7/26/2026,KARAN MEHTA,0
+180,Insulin,Diabetes,South,Hyderabad,250,,26/01/2026,rohit verma,
+181,VITAMIN C,supplement,North ,Delhi,20,15,28/05/2026,DIVYA RAO,15
+182,Insulin,Diabetes,East,Pune,20,20,15/02/2026,KARAN MEHTA,5
+183,Ciprofloxacin,ANTIBIOTIC,North ,Jaipur,250,5,3/1/2026,aman kumar,10
+184,aspirin, Painkiller,South,Kolkata,-15,75,2/5/2026,SNEHA GUPTA,15
+185,Aspirin,Painkiller,WEST,Bangalore,,30.5,6/9/2026,Priya Sharma ,0
+186,GLIMEPIRIDE,DIABETES,South,Mumbai,10,45,8/3/2026,Rohit Verma ,15
+187,Paracetamol ,Painkiller,West ,Mumbai,20,30.5,8/15/2026,aman kumar,
+188,Ibuprofen ,bp,West ,Mumbai,150,8,1/17/2026,aman kumar,15
+189,Omeprazole,GASTRO,South,Chennai,300,15,7/28/2026,DIVYA RAO,0
+190,Aspirin,Painkiller ,South,Hyderabad,-15,5,6/9/2026,Priya Sharma,20
+191,Glimepiride ,DIABETES,east,Bangalore,-15,120,4/3/2026,KARAN MEHTA,10
+192,azithromycin, Antibiotic,south,Jaipur,-15,150,7/17/2026,sneha gupta,10
+193,Pantoprazole,Gastro,west,,100,,2/6/2026,rohit verma,0
+194,Insulin , Diabetes,East,Hyderabad,30,45,4/24/2026,,
+195,Amoxicillin,Antihistamine,West ,Bangalore,-15,150,8/13/2026,Karan Mehta,10
+196,Ibuprofen,painkiller,WEST,Delhi,50,60,7/9/2026,ROHIT VERMA,5
+197,Metformin,DIABETES,WEST,Mumbai,50,150,4/15/2026,DIVYA RAO,5
+198, Ranitidine,gastro,West ,Hyderabad,500,150,4/5/2026,divya rao,0
+199, Amlodipine,bp,West ,Kolkata,-5,120,8/27/2026,Priya Sharma ,20
+200,Ibuprofen,painkiller,North ,Jaipur,-15,45,3/8/2026,sneha gupta,
+201,Ranitidine,Gastro ,north,Jaipur,,60,3/21/2026,Sneha Gupta ,10
+202, Atorvastatin,Cholesterol,east,Jaipur,-15,15,2/24/2026,Divya Rao,5
+203,Amoxicillin ,Antibiotic ,East,Delhi,20,30.5,3/18/2026,priya sharma,15
+204,GLIMEPIRIDE,Diabetes,West,Kolkata,50,120,7/2/2026,Sneha Gupta,5
+205,Atorvastatin, Cholesterol,east,Chennai,30,,23/08/2026,divya rao,0
+206, Diclofenac,painkiller,south,Hyderabad,200,25,7/3/2026,Sneha Gupta,10
+207,IBUPROFEN,PAINKILLER,EAST,Mumbai,75,100,6/9/2026,,15
+208,Multivitamin,Supplement,South,Hyderabad,-5,100,4/5/2026,KARAN MEHTA,10
+209,Glimepiride ,Diabetes,WEST,Jaipur,-5,,20/06/2026,Sneha Gupta,0
+210,amlodipine, BP,West ,Mumbai,10,5,2/14/2026,PRIYA SHARMA,10
+211,ATORVASTATIN, Cholesterol,North ,Mumbai,150,50,2/12/2026,aman kumar,20
+212,AMLODIPINE,BP,West,,150,120,2/19/2026,ROHIT VERMA,20
+213,insulin,PAINKILLER,South,Hyderabad,150,10.5,8/23/2026,Rohit Verma,0
+214,Paracetamol,Painkiller,North,Pune,500,8,16/03/2026,divya rao,0
+215,Azithromycin,Antibiotic,West ,Mumbai,150,5,6/11/2026,ROHIT VERMA,10
+216,Vitamin C ,Supplement, East,Mumbai,200,45,17/06/2026,sneha gupta,0
+217,Pantoprazole ,Antihistamine ,west,Mumbai,75,5,5/23/2026,Priya Sharma ,
+218,insulin,Diabetes ,North ,Mumbai,75,20,4/3/2026,karan mehta,20
+219,Ibuprofen,painkiller, East,Bangalore,75,25,8/27/2026,KARAN MEHTA,5
+220,Aspirin,SUPPLEMENT,SOUTH ,Chennai,250,100,3/5/2026,Divya Rao ,
+221,Ibuprofen,painkiller,west,Hyderabad,250,100,1/19/2026,sneha gupta,0
+222,Omeprazole ,Gastro ,NORTH,Chennai,150,25,7/26/2026,Rohit Verma,15
+223,omeprazole, Gastro,East,Mumbai,20,25,14/04/2026,Divya Rao ,20
+224, Multivitamin,SUPPLEMENT,South,Hyderabad,250,45,3/28/2026,rohit verma,
+225,Ibuprofen,PAINKILLER,West ,Mumbai,150,25,5/17/2026,aman kumar,10
+226,Losartan,BP ,west,Kolkata,250,75,1/22/2026,Aman Kumar ,
+227,Vitamin C,Gastro,south,Chennai,50,75,2/3/2026,Rohit Verma ,0
+228,Ranitidine,Gastro,south,Mumbai,20,100,2/10/2026,SNEHA GUPTA,20
+229, Omeprazole,gastro,south,Delhi,100,100,7/3/2026,ROHIT VERMA,15
+230,Ibuprofen, Painkiller,South,Chennai,-5,150,5/27/2026,Aman Kumar,20
+231,Aspirin ,Painkiller,WEST,Chennai,,75,8/2/2026,,20
+232,azithromycin,Antibiotic,east,Jaipur,20,,27/07/2026,AMAN KUMAR,5
+233,Azithromycin ,Antibiotic ,West,Kolkata,250,75,3/21/2026,AMAN KUMAR,0
+234,omeprazole,GASTRO,WEST,Pune,-5,25,1/14/2026,Sneha Gupta,5
+235, Omeprazole,Gastro ,SOUTH ,,150,8,8/25/2026,karan mehta,5
+236,Paracetamol ,painkiller,South,Jaipur,-5,100,4/20/2026,rohit verma,
+237,azithromycin,Antibiotic,west,Chennai,300,60,3/26/2026,aman kumar,10
+238,Pantoprazole,Gastro, East,Pune,250,150,3/12/2026,Priya Sharma ,
+239,Ranitidine,Gastro ,south,Hyderabad,100,100,11/2/2026,Rohit Verma ,10
+240,Paracetamol ,Painkiller,EAST,Mumbai,250,30.5,6/23/2026,Priya Sharma,5
+241,amoxicillin,antibiotic,SOUTH ,Delhi,500,60,8/18/2026,Sneha Gupta,20
+242,Aspirin,painkiller,east,Delhi,500,45,7/14/2026,aman kumar,0
+243,AZITHROMYCIN,Antibiotic,west,Mumbai,100,,7/26/2026,aman kumar,5
+244,Azithromycin,diabetes,east,Bangalore,,50,6/10/2026,PRIYA SHARMA,10
+245, Pantoprazole,Gastro,west,Mumbai,150,100,4/3/2026,SNEHA GUPTA,20
+246,Atorvastatin ,Cholesterol,south,Jaipur,75,30.5,6/1/2026,Aman Kumar ,15
+247,Paracetamol,Painkiller,south,Hyderabad,300,25,3/6/2026,Priya Sharma,15
+248,Glimepiride ,DIABETES,east,Bangalore,-15,120,4/3/2026,KARAN MEHTA,10
+249,Diclofenac ,painkiller,SOUTH ,Kolkata,-5,100,4/7/2026,Sneha Gupta ,5
+250,Ibuprofen,Painkiller,south,Hyderabad,50,15,1/14/2026,Divya Rao,0
+251,Insulin,Diabetes,West,Pune,200,30.5,8/24/2026,Rohit Verma,5
+252,omeprazole,Gastro ,south,Chennai,50,75,7/13/2026,aman kumar,5
+253,INSULIN,diabetes,WEST,,,150,6/13/2026,DIVYA RAO,5
+254,glimepiride,Diabetes,South,Bangalore,500,45,5/25/2026,Karan Mehta ,10
+255, Glimepiride,Diabetes ,WEST,Delhi,250,15,3/14/2026,rohit verma,10
+256,MULTIVITAMIN,SUPPLEMENT,west,Delhi,250,60,5/17/2026,Rohit Verma ,5
+257,Insulin ,Diabetes ,EAST,Mumbai,100,30.5,5/18/2026,Sneha Gupta ,10
+258,Ibuprofen,painkiller,NORTH,Delhi,500,20,6/28/2026,KARAN MEHTA,20
+259,Metformin,diabetes,SOUTH ,Jaipur,100,60,8/13/2026,Rohit Verma,5
+260,atorvastatin, Cholesterol,North ,Pune,75,150,17/07/2026,AMAN KUMAR,20
+261, Amoxicillin, Antibiotic,South,Kolkata,50,20,6/5/2026,ROHIT VERMA,10
+262,LORATADINE,ANTIHISTAMINE,north,Hyderabad,50,100,7/1/2026,sneha gupta,20
+263,Ciprofloxacin,ANTIBIOTIC,SOUTH ,Pune,500,30.5,1/12/2026,Priya Sharma,
+264,INSULIN,Diabetes,WEST,Hyderabad,,,4/3/2026,aman kumar,
+265,amlodipine,Bp,NORTH,Jaipur,-5,30.5,6/22/2026,,20
+266, Omeprazole,Gastro,South,Bangalore,250,15,3/5/2026,AMAN KUMAR,20
+267,Paracetamol,painkiller,east,Kolkata,300,60,2/19/2026,,5
+268,cetirizine,ANTIHISTAMINE,West,Pune,,15,4/25/2026,rohit verma,0
+269,AMOXICILLIN,Antibiotic,west,Jaipur,20,15,4/23/2026,karan mehta,0
+270,RANITIDINE,Gastro,West,Bangalore,-15,10.5,10/7/2026,Karan Mehta ,20
+271,Loratadine ,antihistamine,South,,-15,60,21/06/2026,ROHIT VERMA,15
+272,Aspirin,painkiller,South,Bangalore,,,5/22/2026,sneha gupta,20
+273,GLIMEPIRIDE,diabetes,WEST,Kolkata,100,75,7/8/2026,priya sharma,15
+274,aspirin,Painkiller,North ,Mumbai,150,15,4/25/2026,KARAN MEHTA,0
+275,Amoxicillin,Antibiotic,East,Hyderabad,150,150,19/02/2026,aman kumar,20
+276, Paracetamol,Painkiller,south,,150,20,2/17/2026,rohit verma,20
+277,Pantoprazole, Gastro,north,Chennai,-15,30.5,3/13/2026,AMAN KUMAR,10
+278,amoxicillin,antibiotic,north,Hyderabad,20,15,4/8/2026,Karan Mehta ,20
+279,Pantoprazole,Gastro, East,Chennai,,30.5,4/1/2026,Divya Rao,10
+280,insulin, Diabetes,East,Chennai,50,45,13/08/2026,AMAN KUMAR,
+281,Paracetamol , Painkiller,EAST,Hyderabad,250,5,2/18/2026,Karan Mehta ,
+282, Loratadine,Antihistamine ,West,Delhi,75,45,2/2/2026,ROHIT VERMA,
+283,AMOXICILLIN,Antibiotic ,NORTH,Kolkata,-15,120,6/9/2026,rohit verma,15
+284,atorvastatin,Cholesterol ,North,Bangalore,20,15,8/19/2026,Rohit Verma ,
+285,Cetirizine,Antihistamine,West,Mumbai,10,120,3/8/2026,Aman Kumar ,20
+286,VITAMIN C, Supplement,South,Kolkata,,25,8/17/2026,Aman Kumar,5
+287, Losartan,BP ,North,Delhi,20,20,16/02/2026,Divya Rao,5
+288, Vitamin C,Supplement ,NORTH,Hyderabad,50,150,7/26/2026,Karan Mehta ,5
+289,Azithromycin, Antibiotic,EAST,Bangalore,10,10.5,8/4/2026,AMAN KUMAR,20
+290,GLIMEPIRIDE,Diabetes,South,Chennai,-15,20,8/27/2026,Karan Mehta,10
+291,ATORVASTATIN,cholesterol,West,Mumbai,10,20,8/10/2026,ROHIT VERMA,
+292, Multivitamin,SUPPLEMENT,SOUTH ,Pune,50,45,5/6/2026,Karan Mehta,0
+293,Pantoprazole,Gastro,South,,,50,8/15/2026,Rohit Verma,0
+294,AMOXICILLIN,Antibiotic ,EAST,Delhi,250,8,8/6/2026,aman kumar,20
+295,Metformin,diabetes,east,Hyderabad,10,60,5/13/2026,rohit verma,15
+296,AMLODIPINE,BP,South,Bangalore,75,60,6/15/2026,DIVYA RAO,15
+297, Aspirin,PAINKILLER,NORTH,,75,150,3/8/2026,KARAN MEHTA,5
+298,Diclofenac,PAINKILLER,West,Hyderabad,-15,60,6/14/2026,rohit verma,0
+299, Metformin, Diabetes,North,Jaipur,100,50,7/14/2026,Priya Sharma,10
+300,Glimepiride,Diabetes ,north,,150,120,5/20/2026,AMAN KUMAR,10
+301,metformin,Antibiotic,west,Hyderabad,250,30.5,24/06/2026,Priya Sharma,
+302,RANITIDINE,Gastro,south,Pune,10,,1/22/2026,AMAN KUMAR,
+303,LOSARTAN,BP ,south,Hyderabad,75,120,3/24/2026,Priya Sharma ,5
+304, Multivitamin,Supplement,West,Bangalore,,120,4/20/2026,PRIYA SHARMA,15
+305,Glimepiride,Diabetes ,WEST,Delhi,,15,7/3/2026,Rohit Verma,
+306,Diclofenac,painkiller,west,Mumbai,10,5,1/19/2026,Aman Kumar ,10
+307,vitamin c, Supplement,South,Chennai,300,10.5,6/16/2026,Priya Sharma,20
+308,Multivitamin,Supplement,South,Delhi,100,15,16/05/2026,Priya Sharma ,15
+309,Azithromycin,Antibiotic,East,Jaipur,75,10.5,5/4/2026,Priya Sharma,20
+310,multivitamin,SUPPLEMENT,west,Delhi,,8,1/20/2026,KARAN MEHTA,10
+311,Losartan,Bp,west,Jaipur,500,10.5,6/8/2026,,10
+312,Omeprazole,Cholesterol,north,Delhi,500,60,6/8/2026,divya rao,
+313,Metformin,Diabetes,North,Kolkata,300,50,7/6/2026,rohit verma,10
+314, Vitamin C,supplement,South,Kolkata,100,20,5/9/2026,Divya Rao ,15
+315,Atorvastatin, Cholesterol,west,Chennai,30,,14/08/2026,Divya Rao,10
+316,multivitamin,Supplement ,West,Mumbai,500,15,8/2/2026,Divya Rao,10
+317,Ibuprofen , Painkiller,West,Kolkata,20,120,7/22/2026,Divya Rao,10
+318,Glimepiride , Diabetes,East,Bangalore,-5,8,4/24/2026,divya rao,
+319,OMEPRAZOLE,Gastro ,East,Hyderabad,75,25,8/13/2026,Rohit Verma ,0
+320,Ranitidine,gastro,East,Bangalore,75,120,8/22/2026,DIVYA RAO,10
+321,Cetirizine,ANTIHISTAMINE, East,Kolkata,-15,5,2/20/2026,Sneha Gupta,20
+322,Insulin ,diabetes,South,Hyderabad,-5,10.5,10/5/2026,AMAN KUMAR,10
+323,loratadine,ANTIHISTAMINE,East,Chennai,250,8,1/11/2026,Divya Rao ,20
+324,Ranitidine,Gastro ,east,Kolkata,500,8,1/14/2026,Karan Mehta,20
+325,PANTOPRAZOLE,cholesterol,North ,Mumbai,50,120,5/5/2026,SNEHA GUPTA,5
+326,Azithromycin ,Antibiotic ,North,Pune,20,20,6/15/2026,Rohit Verma,
+327,Atorvastatin ,Cholesterol ,WEST,Chennai,250,,1/12/2026,ROHIT VERMA,20
+328,glimepiride,Diabetes,south,Delhi,75,8,25/06/2026,Divya Rao,20
+329, Atorvastatin,Gastro,SOUTH ,Delhi,30,,1/1/2026,PRIYA SHARMA,15
+330,losartan, Diabetes,north,Delhi,-5,150,4/22/2026,Rohit Verma,
+331, Ibuprofen,Painkiller,South,Kolkata,50,60,5/26/2026,priya sharma,5
+332,ibuprofen,PAINKILLER,NORTH,Kolkata,-15,8,3/20/2026,divya rao,15
+333,Amoxicillin ,ANTIBIOTIC,NORTH,,-5,8,3/11/2026,Rohit Verma ,0
+334,LOSARTAN, BP,west,Bangalore,10,,4/23/2026,Aman Kumar,10
+335,GLIMEPIRIDE,Cholesterol,North,Jaipur,500,120,1/17/2026,AMAN KUMAR,0
+336, Pantoprazole,GASTRO,West ,Hyderabad,20,15,1/22/2026,divya rao,0
+337,LORATADINE,ANTIHISTAMINE,North ,Chennai,-5,,5/23/2026,Priya Sharma ,0
+338,DICLOFENAC,Painkiller, East,Mumbai,,8,4/4/2026,KARAN MEHTA,5
+339,Diclofenac ,Painkiller,NORTH,Delhi,75,120,3/28/2026,AMAN KUMAR,
+340, Amlodipine,bp,WEST,Bangalore,100,25,4/20/2026,karan mehta,
+341, Amlodipine, BP,south,Delhi,,50,2/18/2026,,5
+342,omeprazole,GASTRO,South,Mumbai,500,,5/4/2026,PRIYA SHARMA,10
+343,ASPIRIN, Painkiller,East,Mumbai,200,60,7/1/2026,Sneha Gupta,20
+344,ATORVASTATIN, Cholesterol,South,Kolkata,30,20,4/3/2026,Karan Mehta,
+345,amlodipine,BP,west,Kolkata,300,45,3/2/2026,Aman Kumar,0
+346,insulin,DIABETES,east,Kolkata,200,10.5,2/10/2026,aman kumar,
+347,Aspirin ,Painkiller, East,Chennai,-15,150,13/03/2026,Sneha Gupta ,15
+348,Insulin,Diabetes,North ,Pune,,25,1/15/2026,divya rao,5
+349,Omeprazole ,Gastro ,South,Mumbai,500,5,1/22/2026,Sneha Gupta,15
+350,glimepiride,DIABETES,WEST,Hyderabad,50,100,2/24/2026,sneha gupta,
+351,Azithromycin,antibiotic,South,Bangalore,300,50,4/16/2026,aman kumar,10
+352,GLIMEPIRIDE,Diabetes,North,Kolkata,50,,6/22/2026,AMAN KUMAR,20
+353,Atorvastatin ,Cholesterol,NORTH,Chennai,10,30.5,6/6/2026,priya sharma,0
+354,diclofenac,PAINKILLER,West,Kolkata,250,50,24/04/2026,DIVYA RAO,
+355,Insulin,Diabetes,East,Chennai,100,30.5,1/14/2026,Karan Mehta ,10
+356,Azithromycin,antibiotic,South,Chennai,20,75,2/25/2026,Karan Mehta ,20
+357, Pantoprazole,Gastro,West,Chennai,-15,8,7/16/2026,Karan Mehta,0
+358,insulin,diabetes,South,Mumbai,100,30.5,3/21/2026,Divya Rao,5
+359,Loratadine ,ANTIHISTAMINE,NORTH,Jaipur,300,5,2/26/2026,Sneha Gupta ,5
+360,Ranitidine,Gastro,WEST,Delhi,20,75,2/20/2026,Sneha Gupta,5
+361,pantoprazole,Gastro, East,Mumbai,,15,2/16/2026,PRIYA SHARMA,20
+362,omeprazole,gastro,East,Hyderabad,30,30.5,8/27/2026,KARAN MEHTA,20
+363,Paracetamol,painkiller,East,Hyderabad,100,8,5/25/2026,karan mehta,15
+364,MULTIVITAMIN,Supplement ,south,Kolkata,,5,5/1/2026,Divya Rao ,0
+365, Omeprazole, Gastro,north,Bangalore,10,120,5/14/2026,Divya Rao ,15
+366,Ciprofloxacin,ANTIBIOTIC,SOUTH ,Mumbai,200,10.5,3/9/2026,Rohit Verma ,20
+367,Cetirizine ,Bp,south,Delhi,-5,10.5,3/27/2026,AMAN KUMAR,10
+368,Multivitamin,Supplement,North,Kolkata,200,20,3/24/2026,Sneha Gupta,0
+369, Ciprofloxacin,antibiotic, East,Pune,50,150,8/22/2026,Divya Rao ,10
+370,Loratadine ,Gastro ,WEST,Bangalore,250,20,3/14/2026,karan mehta,10
+371,Paracetamol,painkiller,north,Bangalore,150,50,3/6/2026,DIVYA RAO,0
+372,ciprofloxacin,Antibiotic ,EAST,Kolkata,300,50,3/11/2026,rohit verma,15
+373, Pantoprazole,Gastro,West,Chennai,-15,8,7/16/2026,Karan Mehta,0
+374,LORATADINE,Antihistamine,north,Delhi,50,30.5,3/5/2026,Divya Rao ,
+375,glimepiride,DIABETES,west,Chennai,250,15,7/12/2026,Aman Kumar ,
+376,Ibuprofen ,Painkiller ,West ,Mumbai,20,60,8/15/2026,SNEHA GUPTA,0
+377,Pantoprazole,Gastro,North,Bangalore,-15,75,23/01/2026,Aman Kumar,5
+378,cetirizine,GASTRO,east,Jaipur,10,150,8/4/2026,Sneha Gupta,5
+379,Vitamin C, Supplement,SOUTH ,Mumbai,10,25,8/4/2026,PRIYA SHARMA,20
+380,Atorvastatin,BP ,north,Hyderabad,,45,5/6/2026,Aman Kumar ,20
+381,Aspirin,Painkiller ,North,Delhi,-15,100,8/9/2026,rohit verma,
+382,Vitamin C,Supplement,West ,Bangalore,-5,50,3/1/2026,ROHIT VERMA,10
+383, Loratadine,Antihistamine,North ,Bangalore,10,150,2/20/2026,aman kumar,10
+384,PANTOPRAZOLE,Gastro,east,Delhi,300,45,1/7/2026,KARAN MEHTA,0
+385, Diclofenac,PAINKILLER,east,Kolkata,500,60,3/20/2026,Divya Rao ,0
+386,pantoprazole,GASTRO,West ,Bangalore,250,120,3/14/2026,sneha gupta,
+387, Cetirizine, Antihistamine,NORTH,Delhi,30,,6/11/2026,Aman Kumar,15
+388,Loratadine,ANTIHISTAMINE,South,,150,100,7/18/2026,Sneha Gupta ,15
+389,Azithromycin,Antibiotic,North,Chennai,50,5,4/19/2026,Rohit Verma ,15
+390,Metformin, Diabetes,East,Hyderabad,250,25,3/12/2026,Karan Mehta ,5
+391,Multivitamin ,supplement,North,Chennai,150,100,4/19/2026,DIVYA RAO,20
+392,loratadine,ANTIHISTAMINE,East,Jaipur,150,60,6/6/2026,Sneha Gupta,15
+393,Amlodipine,BP , East,Mumbai,200,100,8/17/2026,KARAN MEHTA,
+394,Aspirin,CHOLESTEROL,West ,Kolkata,300,75,6/7/2026,,20
+395,VITAMIN C,Cholesterol ,west,Chennai,-15,25,3/4/2026,Rohit Verma,
+396,AMLODIPINE,BP, East,Delhi,50,30.5,5/15/2026,Divya Rao,5
+397,Insulin,Diabetes,North,Mumbai,10,10.5,5/28/2026,DIVYA RAO,20
+398,ciprofloxacin,ANTIBIOTIC,West ,Bangalore,250,8,2/15/2026,Sneha Gupta,10
+399,Ciprofloxacin ,Diabetes,west,Pune,,10.5,2/15/2026,Rohit Verma,15
+400,Ranitidine,Gastro,WEST,Jaipur,200,30.5,2/14/2026,sneha gupta,15
+401,PARACETAMOL, Painkiller,West ,Kolkata,30,20,4/18/2026,sneha gupta,5
+402,PANTOPRAZOLE,GASTRO,South,Pune,75,5,27/04/2026,ROHIT VERMA,10
+403,glimepiride, Diabetes,north,Pune,150,50,1/22/2026,ROHIT VERMA,5
+404,Cetirizine ,Antihistamine ,North,Kolkata,500,120,7/23/2026,Divya Rao ,20
+405,Aspirin,painkiller,South,Chennai,-15,5,1/26/2026,rohit verma,15
+406,ranitidine,Gastro ,north,Kolkata,500,50,6/3/2026,Divya Rao,0
+407,cetirizine,Antihistamine ,south,Mumbai,75,15,5/17/2026,Karan Mehta ,5
+408,AMLODIPINE,BP,South,Delhi,20,100,6/21/2026,karan mehta,
+409,Ibuprofen , Painkiller,NORTH,Chennai,20,20,3/23/2026,sneha gupta,0
+410,metformin,Diabetes ,South,Hyderabad,100,30.5,16/04/2026,rohit verma,10
+411,loratadine,Antihistamine,WEST,Kolkata,300,,2/4/2026,KARAN MEHTA,10
+412,PARACETAMOL,painkiller,East,Bangalore,200,75,7/3/2026,DIVYA RAO,0
+413,insulin,DIABETES,south,Jaipur,30,8,2/16/2026,Divya Rao,15
+414,OMEPRAZOLE,Gastro,EAST,Hyderabad,150,100,8/28/2026,Aman Kumar,0
+415,LORATADINE,Antihistamine ,South,Mumbai,,100,3/6/2026,Priya Sharma ,15
+416, Atorvastatin,Cholesterol ,South,Hyderabad,-5,120,8/3/2026,Priya Sharma,5
+417,Atorvastatin ,cholesterol,east,Mumbai,300,100,6/11/2026,Karan Mehta ,20
+418,DICLOFENAC,Painkiller,east,Jaipur,75,15,4/26/2026,KARAN MEHTA,5
+419,MULTIVITAMIN,Cholesterol,West,Jaipur,150,5,6/12/2026,Aman Kumar,5
+420,GLIMEPIRIDE, Diabetes,north,Pune,30,5,2/11/2026,,0
+421,Metformin ,DIABETES,NORTH,Mumbai,100,120,6/27/2026,Priya Sharma,10
+422,Amlodipine,Bp,West,Pune,50,15,2/2/2026,Divya Rao,10
+423,multivitamin,SUPPLEMENT,East,Pune,50,75,23/08/2026,Divya Rao ,10
+424,ibuprofen,PAINKILLER,west,Kolkata,100,60,8/21/2026,Sneha Gupta,0
+425, Insulin,Diabetes ,West,Hyderabad,20,20,17/03/2026,PRIYA SHARMA,10
+426,azithromycin,ANTIBIOTIC, East,Hyderabad,75,,10/4/2026,aman kumar,10
+427, Amoxicillin,antibiotic,East,Jaipur,75,30.5,5/16/2026,aman kumar,20
+428,pantoprazole,Gastro,south,Chennai,,150,2/18/2026,priya sharma,15
+429, Glimepiride,diabetes,SOUTH ,Bangalore,250,20,5/19/2026,sneha gupta,5
+430,atorvastatin,Cholesterol ,south,Chennai,30,30.5,5/13/2026,sneha gupta,15
+431,Omeprazole,gastro, East,Jaipur,75,60,4/11/2026,Aman Kumar,10
+432,insulin,Diabetes,East,Chennai,100,25,3/27/2026,Divya Rao,20
+433,Pantoprazole ,GASTRO,SOUTH ,Pune,-15,60,5/27/2026,Aman Kumar ,
+434,Pantoprazole ,Gastro,East,Chennai,75,50,4/27/2026,Karan Mehta,
+435, Pantoprazole,Cholesterol ,EAST,Chennai,-15,10.5,2/17/2026,Aman Kumar ,5
+436,Metformin,ANTIHISTAMINE,north,Hyderabad,,120,6/3/2026,SNEHA GUPTA,
+437, Vitamin C,Painkiller,SOUTH ,Kolkata,500,15,5/27/2026,,0
+438,Glimepiride ,diabetes,West ,Delhi,20,10.5,6/14/2026,,
+439,Omeprazole,Gastro ,NORTH,Bangalore,250,30.5,4/8/2026,,0
+440,Insulin ,diabetes,north,Pune,300,45,3/8/2026,Sneha Gupta,
+441,atorvastatin,Cholesterol,East,Chennai,500,60,1/4/2026,karan mehta,0
+442,LORATADINE,Antihistamine,SOUTH ,Pune,-5,,1/8/2026,,20
+443,Ciprofloxacin,ANTIBIOTIC,SOUTH ,Pune,500,30.5,1/12/2026,Priya Sharma,
+444, Metformin,Diabetes,West ,Bangalore,-15,45,4/16/2026,Karan Mehta,
+445,Omeprazole ,GASTRO,North ,Pune,,45,8/27/2026,Priya Sharma ,20
+446,Glimepiride,Diabetes,east,Pune,,60,17/07/2026,aman kumar,10
+447,azithromycin,Antibiotic,south,Delhi,500,8,8/25/2026,priya sharma,5
+448,CETIRIZINE,ANTIHISTAMINE,EAST,Chennai,75,100,5/7/2026,priya sharma,20
+449,Cetirizine,ANTIHISTAMINE,WEST,Chennai,200,20,3/3/2026,Rohit Verma,15
+450,amoxicillin,Antibiotic,SOUTH ,Mumbai,30,15,5/21/2026,Priya Sharma ,10
+451,Aspirin,PAINKILLER,EAST,,200,20,7/19/2026,Priya Sharma ,10
+452,Diclofenac,PAINKILLER,East,Pune,75,100,7/17/2026,SNEHA GUPTA,0
+453,Multivitamin, Supplement,NORTH,Jaipur,-5,120,18/02/2026,,15
+454,LORATADINE,ANTIHISTAMINE,south,Mumbai,300,150,2/15/2026,Divya Rao ,0
+455,Ibuprofen ,Painkiller ,West ,Mumbai,20,60,8/15/2026,SNEHA GUPTA,0
+456, Ciprofloxacin,Antibiotic ,South,Chennai,250,25,5/3/2026,karan mehta,
+457,Omeprazole,Gastro,South,Delhi,300,8,22/06/2026,divya rao,0
+458,LOSARTAN,BP,South,Chennai,300,60,6/5/2026,Karan Mehta,
+459,Azithromycin,ANTIBIOTIC,NORTH,Mumbai,20,50,4/17/2026,priya sharma,0
+460,Vitamin C ,Supplement,north,Pune,-5,100,8/26/2026,Priya Sharma,15
+461,Aspirin,Painkiller,SOUTH ,Bangalore,,8,2/23/2026,Aman Kumar,0
+462, Multivitamin,supplement,NORTH,Jaipur,-15,150,7/12/2026,,0
+463,Paracetamol,Painkiller,South,Jaipur,30,8,3/7/2026,divya rao,15
+464, Glimepiride,Diabetes,NORTH,Chennai,250,10.5,8/22/2026,rohit verma,10
+465,Ibuprofen,Painkiller,West ,Chennai,-15,,5/11/2026,KARAN MEHTA,10
+466,Ciprofloxacin,Antibiotic ,SOUTH ,Bangalore,10,150,7/24/2026,karan mehta,20
+467, Losartan,Bp,WEST,Mumbai,-15,20,1/5/2026,Divya Rao,
+468,Losartan ,Bp, East,,50,75,7/11/2026,ROHIT VERMA,15
+469,LOSARTAN,BP,SOUTH ,Mumbai,100,50,17/08/2026,rohit verma,10
+470,pantoprazole,Gastro ,South,Kolkata,200,10.5,4/6/2026,KARAN MEHTA,10
+471,Insulin , Diabetes,West,Bangalore,100,30.5,7/3/2026,Karan Mehta ,10
+472,aspirin, Painkiller,South,Chennai,250,150,3/15/2026,Divya Rao,20
+473,METFORMIN, Diabetes,North ,Jaipur,-15,45,5/24/2026,ROHIT VERMA,
+474,multivitamin,Supplement,east,Bangalore,500,25,4/22/2026,DIVYA RAO,
+475,Amlodipine,ANTIBIOTIC,West ,Jaipur,20,5,6/3/2026,Karan Mehta,5
+476,Ciprofloxacin, Antibiotic,North ,,200,15,7/26/2026,karan mehta,5
+477,GLIMEPIRIDE,Diabetes , East,Bangalore,30,10.5,13/05/2026,KARAN MEHTA,15
+478, Aspirin,Painkiller,West,Hyderabad,30,75,3/24/2026,Divya Rao,
+479, Amoxicillin,antibiotic,West,Mumbai,30,30.5,8/23/2026,Divya Rao,10
+480,atorvastatin,Cholesterol,NORTH,Kolkata,20,75,6/19/2026,SNEHA GUPTA,10
+481,OMEPRAZOLE,Gastro, East,Pune,10,5,5/10/2026,Divya Rao ,10
+482,Glimepiride ,Diabetes,WEST,Mumbai,300,75,4/3/2026,Rohit Verma ,20
+483,Omeprazole ,GASTRO,North,Hyderabad,100,,4/19/2026,Sneha Gupta ,5
+484,Glimepiride ,Diabetes,North ,Jaipur,50,15,1/6/2026,KARAN MEHTA,0
+485,atorvastatin,CHOLESTEROL,South,Mumbai,250,20,3/19/2026,KARAN MEHTA,15
+486,Amlodipine ,Bp,west,,-5,25,4/15/2026,Karan Mehta,0
+487,GLIMEPIRIDE, Diabetes,North ,Jaipur,250,8,25/06/2026,Sneha Gupta ,15
+488, Diclofenac,Painkiller ,SOUTH ,Kolkata,20,60,8/22/2026,KARAN MEHTA,15
+489,Amlodipine, BP,North,Hyderabad,200,30.5,1/18/2026,aman kumar,15
+490, Ibuprofen,Painkiller,east,Chennai,75,120,4/1/2026,SNEHA GUPTA,15
+491,Ranitidine ,gastro,WEST,Pune,150,8,5/19/2026,Divya Rao ,20
+492, Vitamin C,Supplement ,EAST,Hyderabad,-15,150,6/19/2026,Karan Mehta,
+493,Aspirin,Painkiller,EAST,Hyderabad,,150,24/06/2026,aman kumar,15
+494,Losartan,Bp,North,Bangalore,250,60,4/19/2026,,0
+495,Insulin ,Diabetes ,South,Bangalore,20,50,7/28/2026,Priya Sharma ,15
+496,insulin, Diabetes,south,Hyderabad,,150,2/26/2026,SNEHA GUPTA,15
+497,Diclofenac,Painkiller,SOUTH ,,50,150,4/22/2026,Karan Mehta,
+498,LORATADINE,Antihistamine,north,Chennai,150,,1/26/2026,Aman Kumar ,15
+499,glimepiride,diabetes,EAST,Bangalore,30,5,4/15/2026,Divya Rao ,10
+500,AMOXICILLIN,Antibiotic ,North ,Bangalore,-15,20,7/4/2026,Divya Rao ,15
+501,Ibuprofen,Painkiller,WEST,Chennai,200,15,5/6/2026,PRIYA SHARMA,5
+502,CETIRIZINE,Antihistamine,EAST,Delhi,30,8,8/15/2026,Priya Sharma ,
+503, Paracetamol,Painkiller,South,Mumbai,10,10.5,6/4/2026,Sneha Gupta,
+504,Amlodipine ,BP ,North ,Kolkata,10,15,2/7/2026,Aman Kumar ,20
+505,Insulin,Diabetes ,south,Bangalore,500,20,3/21/2026,priya sharma,5
+506,AMLODIPINE,BP ,North,Kolkata,500,,6/18/2026,PRIYA SHARMA,0
+507,glimepiride,Diabetes,west,Delhi,500,15,6/22/2026,Karan Mehta,0
+508,Ibuprofen,painkiller,NORTH,Jaipur,50,8,8/12/2026,DIVYA RAO,5
+509,Omeprazole,GASTRO,East,Bangalore,500,15,3/25/2026,priya sharma,5
+510,AMOXICILLIN,Antibiotic,East,Chennai,250,15,3/6/2026,,20
+511,PARACETAMOL, Diabetes,east,Delhi,20,120,6/8/2026,Karan Mehta,15
+512,IBUPROFEN,PAINKILLER,east,Jaipur,300,60,6/25/2026,,20
+513,Multivitamin,supplement,West ,Chennai,200,50,5/17/2026,karan mehta,0
+514,AMOXICILLIN, Antihistamine,South,Delhi,30,,4/4/2026,DIVYA RAO,
+515,MULTIVITAMIN,Supplement ,South,Mumbai,250,50,1/5/2026,Sneha Gupta ,20
+516,Ranitidine ,Gastro ,East,Pune,30,,4/18/2026,Priya Sharma ,
+517,LOSARTAN,BP ,NORTH,Bangalore,-5,150,3/16/2026,Rohit Verma ,10
+518,Losartan ,BP,WEST,Delhi,-15,15,8/10/2026,ROHIT VERMA,20
+519, Multivitamin,Supplement ,North,Chennai,30,100,4/12/2026,Aman Kumar ,20
+520, Azithromycin,Antibiotic,SOUTH ,Delhi,250,100,19/02/2026,PRIYA SHARMA,10
+521,Metformin ,diabetes,East,Pune,100,30.5,4/24/2026,,15
+522,Vitamin C,Supplement,north,Bangalore,75,45,23/03/2026,Aman Kumar ,10
+523,atorvastatin,Supplement,EAST,Jaipur,30,15,1/25/2026,DIVYA RAO,5
+524,Amoxicillin ,ANTIBIOTIC,SOUTH ,Mumbai,200,45,8/4/2026,KARAN MEHTA,15
+525,Loratadine ,Antihistamine,north,Delhi,-15,50,3/27/2026,ROHIT VERMA,10
+526,LORATADINE,Antihistamine,West ,Mumbai,,150,3/27/2026,PRIYA SHARMA,0
+527,Paracetamol ,Painkiller ,West,Mumbai,10,150,5/22/2026,Divya Rao,20
+528,Ibuprofen,Painkiller,West,Pune,300,45,1/27/2026,Divya Rao ,
+529,insulin, Diabetes,west,Delhi,-15,50,2/28/2026,AMAN KUMAR,20
+530,LORATADINE,Antihistamine,east,Hyderabad,20,60,1/1/2026,Divya Rao ,
+531,RANITIDINE,gastro,South,Hyderabad,300,75,21/06/2026,karan mehta,
+532,Diclofenac ,PAINKILLER,EAST,Hyderabad,10,60,6/28/2026,aman kumar,15
+533,Diclofenac,antihistamine,North ,Mumbai,50,5,3/10/2026,Karan Mehta,
+534,Diclofenac ,Painkiller ,North,Kolkata,300,60,3/16/2026,Karan Mehta,5
+535,Aspirin,Painkiller ,EAST,Kolkata,500,,8/25/2026,divya rao,10
+536,Cetirizine, Antihistamine,North ,Kolkata,250,10.5,4/19/2026,aman kumar,15
+537,Amoxicillin ,ANTIBIOTIC,South,Chennai,-15,20,12/8/2026,rohit verma,15
+538,Multivitamin,Supplement,north,,-5,50,3/20/2026,AMAN KUMAR,0
+539,Loratadine ,Antihistamine,North,Delhi,100,60,1/17/2026,AMAN KUMAR,20
+540,Metformin,Diabetes ,West ,Kolkata,,10.5,7/16/2026,Sneha Gupta ,20
+541,Loratadine,ANTIHISTAMINE,South,Mumbai,30,75,4/22/2026,ROHIT VERMA,
+542, Ciprofloxacin,ANTIBIOTIC,North,Jaipur,75,150,4/5/2026,Karan Mehta ,5
+543,Amlodipine ,DIABETES,SOUTH ,Jaipur,250,50,8/17/2026,Divya Rao ,5
+544,Vitamin C, Supplement,South,Hyderabad,-15,60,6/13/2026,Rohit Verma ,10
+545, Ciprofloxacin, Antibiotic,SOUTH ,Bangalore,250,50,7/21/2026,aman kumar,0
+546,aspirin,Painkiller ,NORTH,Hyderabad,200,120,8/15/2026,AMAN KUMAR,5
+547,Cetirizine ,antihistamine,East,Kolkata,200,120,4/17/2026,AMAN KUMAR,0
+548,pantoprazole,Gastro,east,Bangalore,,100,8/22/2026,,5
+549,amoxicillin,antibiotic,South,Jaipur,50,30.5,8/8/2026,AMAN KUMAR,10
+550, Losartan,Bp,North,Bangalore,-5,15,4/6/2026,ROHIT VERMA,15
+551,Omeprazole ,Gastro ,WEST,Delhi,30,25,6/12/2026,rohit verma,
+552,Diclofenac ,Diabetes ,west,Chennai,,100,5/13/2026,SNEHA GUPTA,20
+553,Amoxicillin,painkiller,North,Chennai,30,150,7/6/2026,SNEHA GUPTA,5
+554,Loratadine ,ANTIHISTAMINE,east,Bangalore,250,100,7/22/2026,rohit verma,15
+555,Amlodipine,Bp,west,Delhi,75,8,4/4/2026,KARAN MEHTA,10
+556,ATORVASTATIN,Cholesterol, East,Delhi,100,120,1/9/2026,ROHIT VERMA,0
+557,VITAMIN C,supplement,North ,Delhi,20,15,28/05/2026,DIVYA RAO,15
+558, Cetirizine,Cholesterol ,WEST,Mumbai,,100,8/5/2026,PRIYA SHARMA,20
+559,Amoxicillin,antibiotic,south,Delhi,75,20,2/9/2026,Rohit Verma,10
+560, Paracetamol,Painkiller ,south,Chennai,10,5,27/02/2026,SNEHA GUPTA,0
+561,glimepiride,DIABETES,west,Chennai,250,15,7/12/2026,Aman Kumar ,
+562, Multivitamin,Supplement,west,Bangalore,-5,5,7/8/2026,DIVYA RAO,20
+563, Metformin,Diabetes,WEST,Delhi,250,50,8/26/2026,divya rao,15
+564,CIPROFLOXACIN,Antibiotic,NORTH,Jaipur,-5,5,1/18/2026,Karan Mehta ,10
+565,ranitidine,GASTRO,West,Chennai,200,20,5/12/2026,DIVYA RAO,0
